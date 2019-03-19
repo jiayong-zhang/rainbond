@@ -26,8 +26,8 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/discover"
-	"github.com/goodrain/rainbond/discover/config"
+	"rainbond/discover"
+	"rainbond/discover/config"
 
 	"github.com/prometheus/common/log"
 )

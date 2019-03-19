@@ -20,12 +20,12 @@ package conversion
 
 import (
 	"fmt"
-	"github.com/goodrain/rainbond/gateway/annotations/parser"
+	"rainbond/gateway/annotations/parser"
 
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/db/dao"
-	"github.com/goodrain/rainbond/db/model"
-	v1 "github.com/goodrain/rainbond/worker/appm/types/v1"
+	"rainbond/db"
+	"rainbond/db/dao"
+	"rainbond/db/model"
+	v1 "rainbond/worker/appm/types/v1"
 	"github.com/rafrombrc/gomock/gomock"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -237,7 +237,7 @@ func TestApplyTcpRule(t *testing.T) {
 	}
 
 	// create k8s resources
-	c, err := clientcmd.BuildConfigFromFlags("", "/Users/abe/go/src/github.com/goodrain/rainbond/test/admin.kubeconfig")
+	c, err := clientcmd.BuildConfigFromFlags("", "/Users/abe/go/src/rainbond/test/admin.kubeconfig")
 	if err != nil {
 		t.Fatalf("read kube config file error: %v", err)
 	}
@@ -386,7 +386,7 @@ func TestAppServiceBuild_ApplyHttpRule(t *testing.T) {
 	}
 
 	// create k8s resources
-	c, err := clientcmd.BuildConfigFromFlags("", "/Users/abe/go/src/github.com/goodrain/rainbond/test/admin.kubeconfig")
+	c, err := clientcmd.BuildConfigFromFlags("", "/Users/abe/go/src/rainbond/test/admin.kubeconfig")
 	if err != nil {
 		t.Fatalf("read kube config file error: %v", err)
 	}
@@ -528,7 +528,7 @@ func TestAppServiceBuild_ApplyHttpRuleWithCertificate(t *testing.T) {
 	}
 
 	// create k8s resources
-	c, err := clientcmd.BuildConfigFromFlags("", "/Users/abe/go/src/github.com/goodrain/rainbond/test/admin.kubeconfig")
+	c, err := clientcmd.BuildConfigFromFlags("", "/Users/abe/go/src/rainbond/test/admin.kubeconfig")
 	if err != nil {
 		t.Fatalf("read kube config file error: %v", err)
 	}

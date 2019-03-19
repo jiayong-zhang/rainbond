@@ -25,7 +25,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 	yaml "gopkg.in/yaml.v2"
 )
 

@@ -19,8 +19,8 @@
 package controller
 
 import (
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/nodem/service"
+	"rainbond/cmd/node/option"
+	"rainbond/node/nodem/service"
 )
 
 //NewController At the stage you want to load the configurations of all rainbond components

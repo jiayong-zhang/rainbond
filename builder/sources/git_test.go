@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/goodrain/rainbond/event"
+	"rainbond/event"
 )
 
 func init() {
@@ -49,7 +49,7 @@ func TestGitClone(t *testing.T) {
 func TestGitCloneByTag(t *testing.T) {
 	start := time.Now()
 	csi := CodeSourceInfo{
-		RepositoryURL: "https://github.com/goodrain/rainbond-install.git",
+		RepositoryURL: "https://rainbond-install.git",
 		Branch:        "tag:v3.5.1",
 	}
 	//logger := event.GetManager().GetLogger("system")

@@ -21,16 +21,16 @@ package handler
 import (
 	"fmt"
 
-	"github.com/goodrain/rainbond/worker/discover/model"
+	"rainbond/worker/discover/model"
 
 	"github.com/jinzhu/gorm"
 
 	"github.com/Sirupsen/logrus"
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/api/util"
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	gclient "github.com/goodrain/rainbond/mq/client"
+	api_model "rainbond/api/model"
+	"rainbond/api/util"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
+	gclient "rainbond/mq/client"
 	"github.com/pquerna/ffjson/ffjson"
 )
 

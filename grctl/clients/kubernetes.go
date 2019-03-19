@@ -21,7 +21,7 @@ package clients
 import (
 	"path"
 
-	"github.com/goodrain/rainbond/builder/sources"
+	"rainbond/builder/sources"
 
 	"github.com/Sirupsen/logrus"
 	"k8s.io/client-go/kubernetes"

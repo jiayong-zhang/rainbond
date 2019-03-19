@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 )
 
 func init() {

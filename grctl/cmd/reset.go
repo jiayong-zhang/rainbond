@@ -23,14 +23,14 @@ import (
 	// "io/ioutil"
 	"os/exec"
 
-	//"github.com/goodrain/rainbond/event"
+	//"rainbond/event"
 
 	//"github.com/Sirupsen/logrus"
 	"os"
 
 	"github.com/urfave/cli"
-	//"github.com/goodrain/rainbond/builder/sources"
-	//"github.com/goodrain/rainbond/grctl/clients"
+	//"rainbond/builder/sources"
+	//"rainbond/grctl/clients"
 	//"flag"
 )
 

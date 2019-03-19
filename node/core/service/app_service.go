@@ -20,9 +20,9 @@ package service
 
 import (
 	"fmt"
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/discover/config"
-	"github.com/goodrain/rainbond/node/core/store"
+	"rainbond/cmd/node/option"
+	"rainbond/discover/config"
+	"rainbond/node/core/store"
 	"strconv"
 	"strings"
 

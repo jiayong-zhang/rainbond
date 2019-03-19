@@ -20,8 +20,8 @@ package entry
 
 import (
 	"errors"
-	"github.com/goodrain/rainbond/eventlog/conf"
-	"github.com/goodrain/rainbond/eventlog/store"
+	"rainbond/eventlog/conf"
+	"rainbond/eventlog/store"
 	"time"
 
 	"golang.org/x/net/context"

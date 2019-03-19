@@ -21,8 +21,8 @@ package main
 import (
 	"os"
 
-	"github.com/goodrain/rainbond/cmd"
-	"github.com/goodrain/rainbond/cmd/eventlog/server"
+	"rainbond/cmd"
+	"rainbond/cmd/eventlog/server"
 
 	"github.com/spf13/pflag"
 )

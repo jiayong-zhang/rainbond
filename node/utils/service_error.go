@@ -20,7 +20,7 @@ package utils
 
 import (
 	"fmt"
-	httputil "github.com/goodrain/rainbond/util/http"
+	httputil "rainbond/util/http"
 	"net/http"
 
 	"github.com/Sirupsen/logrus"

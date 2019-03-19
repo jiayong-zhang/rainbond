@@ -28,8 +28,8 @@ import (
 
 	"github.com/pquerna/ffjson/ffjson"
 
-	conf "github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/nodem/client"
+	conf "rainbond/cmd/node/option"
+	"rainbond/node/nodem/client"
 
 	"github.com/Sirupsen/logrus"
 	v1 "k8s.io/api/core/v1"

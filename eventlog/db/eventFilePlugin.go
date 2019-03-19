@@ -30,7 +30,7 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 )
 
 //EventFilePlugin EventFilePlugin

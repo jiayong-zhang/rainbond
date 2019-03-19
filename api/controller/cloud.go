@@ -20,11 +20,11 @@ package controller
 
 import (
 	"net/http"
+	"rainbond/api/handler"
 
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/api/handler"
-	api_model "github.com/goodrain/rainbond/api/model"
-	httputil "github.com/goodrain/rainbond/util/http"
+	api_model "rainbond/api/model"
+	httputil "rainbond/util/http"
 )
 
 //CloudManager cloud manager

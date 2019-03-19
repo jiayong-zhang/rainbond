@@ -19,11 +19,11 @@
 package conversion
 
 import (
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/db/dao"
-	"github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/util"
-	"github.com/goodrain/rainbond/worker/appm/types/v1"
+	"rainbond/db"
+	"rainbond/db/dao"
+	"rainbond/db/model"
+	"rainbond/util"
+	"rainbond/worker/appm/types/v1"
 	"github.com/rafrombrc/gomock/gomock"
 	"testing"
 )

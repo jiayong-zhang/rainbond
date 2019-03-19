@@ -24,11 +24,11 @@ import (
 	"path"
 	text_template "text/template"
 
-	"github.com/goodrain/rainbond/cmd/gateway/option"
+	"rainbond/cmd/gateway/option"
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/goodrain/rainbond/gateway/controller/openresty/model"
+	"rainbond/gateway/controller/openresty/model"
 	"github.com/pkg/errors"
 )
 

@@ -22,8 +22,8 @@ import (
 	"testing"
 
 	"github.com/docker/docker/client"
-	"github.com/goodrain/rainbond/builder/parser/code"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/builder/parser/code"
+	"rainbond/event"
 )
 
 func TestBuildNetCore(t *testing.T) {

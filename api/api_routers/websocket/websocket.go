@@ -19,7 +19,7 @@
 package websocket
 
 import (
-	"github.com/goodrain/rainbond/api/controller"
+	"rainbond/api/controller"
 
 	"github.com/go-chi/chi"
 )

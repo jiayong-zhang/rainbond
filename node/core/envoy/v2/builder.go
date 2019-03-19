@@ -29,7 +29,7 @@ import (
 	route "github.com/envoyproxy/go-control-plane/envoy/api/v2/route"
 	http_connection_manager "github.com/envoyproxy/go-control-plane/envoy/config/filter/network/http_connection_manager/v2"
 	tcp_proxy "github.com/envoyproxy/go-control-plane/envoy/config/filter/network/tcp_proxy/v2"
-	v1 "github.com/goodrain/rainbond/node/core/envoy/v1"
+	v1 "rainbond/node/core/envoy/v1"
 )
 
 var defaultListenerAddress = "127.0.0.1"

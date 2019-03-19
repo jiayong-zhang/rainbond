@@ -25,8 +25,8 @@ import (
 	"strconv"
 
 	"github.com/apcera/termtables"
-	"github.com/goodrain/rainbond/grctl/clients"
-	"github.com/goodrain/rainbond/node/nodem/client"
+	"rainbond/grctl/clients"
+	"rainbond/node/nodem/client"
 	"github.com/gosuri/uitable"
 	"github.com/urfave/cli"
 )

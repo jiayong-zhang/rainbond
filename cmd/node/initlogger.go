@@ -19,6 +19,6 @@
 package main
 
 import (
-	_ "github.com/goodrain/rainbond/node/nodem/logger/streamlog"
-	_ "github.com/goodrain/rainbond/node/nodem/logger/testlog"
+	_ "rainbond/node/nodem/logger/streamlog"
+	_ "rainbond/node/nodem/logger/testlog"
 )

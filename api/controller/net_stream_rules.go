@@ -21,10 +21,10 @@ package controller
 import (
 	"net/http"
 
-	"github.com/goodrain/rainbond/api/handler"
-	"github.com/goodrain/rainbond/api/middleware"
-	api_model "github.com/goodrain/rainbond/api/model"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/api/handler"
+	"rainbond/api/middleware"
+	api_model "rainbond/api/model"
+	httputil "rainbond/util/http"
 )
 
 //SetDownStreamRule 设置下游规则

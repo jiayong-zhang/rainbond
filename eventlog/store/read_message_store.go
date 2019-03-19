@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/goodrain/rainbond/eventlog/conf"
-	"github.com/goodrain/rainbond/eventlog/db"
+	"rainbond/eventlog/conf"
+	"rainbond/eventlog/db"
 
 	"golang.org/x/net/context"
 

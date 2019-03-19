@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/goodrain/rainbond/cmd"
-	"github.com/goodrain/rainbond/cmd/mq/option"
-	"github.com/goodrain/rainbond/cmd/mq/server"
+	"rainbond/cmd"
+	"rainbond/cmd/mq/option"
+	"rainbond/cmd/mq/server"
 
 	"github.com/spf13/pflag"
 )

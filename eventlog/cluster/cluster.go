@@ -22,16 +22,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/goodrain/rainbond/eventlog/cluster/connect"
-	"github.com/goodrain/rainbond/eventlog/cluster/discover"
-	"github.com/goodrain/rainbond/eventlog/conf"
-	"github.com/goodrain/rainbond/eventlog/db"
+	"rainbond/eventlog/cluster/connect"
+	"rainbond/eventlog/cluster/discover"
+	"rainbond/eventlog/conf"
+	"rainbond/eventlog/db"
 
 	"golang.org/x/net/context"
 
-	"github.com/goodrain/rainbond/eventlog/store"
+	"rainbond/eventlog/store"
 
-	"github.com/goodrain/rainbond/eventlog/cluster/distribution"
+	"rainbond/eventlog/cluster/distribution"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/prometheus/client_golang/prometheus"

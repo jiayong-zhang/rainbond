@@ -27,8 +27,8 @@ import (
 	"github.com/Sirupsen/logrus"
 	client "github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"
-	conf "github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/core/store"
+	conf "rainbond/cmd/node/option"
+	"rainbond/node/core/store"
 	"github.com/pquerna/ffjson/ffjson"
 )
 

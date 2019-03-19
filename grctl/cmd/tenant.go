@@ -24,14 +24,14 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/apcera/termtables"
-	"github.com/goodrain/rainbond/grctl/clients"
+	"rainbond/grctl/clients"
 	"github.com/gosuri/uitable"
 	"github.com/urfave/cli"
 
-	//"github.com/goodrain/rainbond/eventlog/conf"
+	//"rainbond/eventlog/conf"
 	"errors"
 
-	config "github.com/goodrain/rainbond/cmd/grctl/option"
+	config "rainbond/cmd/grctl/option"
 )
 
 //NewCmdTenant tenant cmd

@@ -25,16 +25,16 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/goodrain/rainbond/cmd/api/option"
+	"rainbond/cmd/api/option"
 
 	"github.com/Sirupsen/logrus"
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/api/util"
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/mq/api/grpc/pb"
-	cli "github.com/goodrain/rainbond/node/nodem/client"
-	"github.com/goodrain/rainbond/worker/client"
+	api_model "rainbond/api/model"
+	"rainbond/api/util"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
+	"rainbond/mq/api/grpc/pb"
+	cli "rainbond/node/nodem/client"
+	"rainbond/worker/client"
 )
 
 //TenantAction tenant act

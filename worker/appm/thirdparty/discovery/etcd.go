@@ -29,8 +29,8 @@ import (
 	c "github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"
 	"github.com/eapache/channels"
-	"github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/worker/appm/types/v1"
+	"rainbond/db/model"
+	"rainbond/worker/appm/types/v1"
 )
 
 type etcd struct {

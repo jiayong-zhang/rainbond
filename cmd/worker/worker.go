@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/goodrain/rainbond/cmd"
-	"github.com/goodrain/rainbond/cmd/worker/option"
-	"github.com/goodrain/rainbond/cmd/worker/server"
+	"rainbond/cmd"
+	"rainbond/cmd/worker/option"
+	"rainbond/cmd/worker/server"
 
 	_ "net/http/pprof"
 

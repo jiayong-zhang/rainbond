@@ -1,8 +1,8 @@
 package monitor
 
 import (
-	"github.com/goodrain/rainbond/builder/discover"
-	"github.com/goodrain/rainbond/builder/exector"
+	"rainbond/builder/discover"
+	"rainbond/builder/exector"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

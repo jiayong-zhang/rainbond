@@ -21,7 +21,7 @@ package controller
 import (
 	"testing"
 
-	dbmodel "github.com/goodrain/rainbond/db/model"
+	dbmodel "rainbond/db/model"
 )
 
 func TestCheckEventTimeOut(t *testing.T) {

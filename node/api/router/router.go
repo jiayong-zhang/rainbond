@@ -23,8 +23,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/goodrain/rainbond/node/api/controller"
-	"github.com/goodrain/rainbond/util/log"
+	"rainbond/node/api/controller"
+	"rainbond/util/log"
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"

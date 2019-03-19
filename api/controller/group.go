@@ -22,11 +22,11 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/api/handler"
-	"github.com/goodrain/rainbond/api/handler/group"
-	"github.com/goodrain/rainbond/api/middleware"
+	"rainbond/api/handler"
+	"rainbond/api/handler/group"
+	"rainbond/api/middleware"
 
-	httputil "github.com/goodrain/rainbond/util/http"
+	httputil "rainbond/util/http"
 )
 
 //Backups list all backup history by group app

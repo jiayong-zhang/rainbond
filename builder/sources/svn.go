@@ -31,8 +31,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/goodrain/rainbond/event"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/event"
+	"rainbond/util"
 )
 
 //SVNClient svn svnclient

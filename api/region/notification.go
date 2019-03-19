@@ -24,9 +24,9 @@ import (
 	"fmt"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/api/util"
-	"github.com/goodrain/rainbond/node/api/model"
-	utilhttp "github.com/goodrain/rainbond/util/http"
+	"rainbond/api/util"
+	"rainbond/node/api/model"
+	utilhttp "rainbond/util/http"
 )
 
 //NotificationInterface cluster api

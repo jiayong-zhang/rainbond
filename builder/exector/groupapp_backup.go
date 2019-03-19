@@ -27,16 +27,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/builder/sources/registry"
-	"github.com/goodrain/rainbond/db"
+	"rainbond/builder/sources"
+	"rainbond/builder/sources/registry"
+	"rainbond/db"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/docker/docker/client"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/event"
+	dbmodel "rainbond/db/model"
+	"rainbond/event"
 	"github.com/pquerna/ffjson/ffjson"
 	"github.com/tidwall/gjson"
 )

@@ -23,20 +23,20 @@ import (
 	"os"
 	"strings"
 
-	"github.com/goodrain/rainbond/builder"
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/builder"
+	"rainbond/builder/sources"
+	"rainbond/util"
 
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/db"
+	"rainbond/event"
 
 	"github.com/docker/docker/api/types"
 	"github.com/pquerna/ffjson/ffjson"
 
-	"github.com/goodrain/rainbond/builder/model"
+	"rainbond/builder/model"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/mq/api/grpc/pb"
+	"rainbond/mq/api/grpc/pb"
 )
 
 const (

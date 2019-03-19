@@ -24,7 +24,7 @@ import (
 	"testing"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/event"
 
 	"github.com/docker/docker/client"
 	"golang.org/x/net/context"
@@ -151,7 +151,7 @@ func TestStartBuildContainer(t *testing.T) {
 		t.Fatal(err)
 	}
 	errchan := make(chan error, 1)
-	tarfile, err := os.OpenFile("/Users/qingguo/gopath/src/github.com/goodrain/rainbond/test/testcontainer/test.tar", os.O_RDONLY, 0755)
+	tarfile, err := os.OpenFile("/Users/qingguo/gopath/src/rainbond/test/testcontainer/test.tar", os.O_RDONLY, 0755)
 	if err != nil {
 		t.Fatal(err)
 	}

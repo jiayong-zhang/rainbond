@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/apcera/termtables"
-	"github.com/goodrain/rainbond/grctl/clients"
+	"rainbond/grctl/clients"
 	"github.com/urfave/cli"
 )
 

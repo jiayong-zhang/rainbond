@@ -22,7 +22,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/goodrain/rainbond/worker/server/pb"
+	"rainbond/worker/server/pb"
 )
 
 //GetServicePods get service pods list

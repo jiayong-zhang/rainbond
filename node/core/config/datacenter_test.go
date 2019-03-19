@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/goodrain/rainbond/node/api/model"
+	"rainbond/node/api/model"
 )
 
 func init() {

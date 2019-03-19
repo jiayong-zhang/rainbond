@@ -25,12 +25,12 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/api/util"
-	"github.com/goodrain/rainbond/cmd/node/option"
-	envoyv1 "github.com/goodrain/rainbond/node/core/envoy/v1"
-	"github.com/goodrain/rainbond/node/core/store"
-	"github.com/goodrain/rainbond/node/kubecache"
+	api_model "rainbond/api/model"
+	"rainbond/api/util"
+	"rainbond/cmd/node/option"
+	envoyv1 "rainbond/node/core/envoy/v1"
+	"rainbond/node/core/store"
+	"rainbond/node/kubecache"
 	"github.com/pquerna/ffjson/ffjson"
 	"k8s.io/apimachinery/pkg/labels"
 )

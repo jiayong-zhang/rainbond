@@ -21,9 +21,9 @@ package controller
 import (
 	"github.com/Sirupsen/logrus"
 	"github.com/bitly/go-simplejson"
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
+	httputil "rainbond/util/http"
 	"io/ioutil"
 	"net/http"
 )

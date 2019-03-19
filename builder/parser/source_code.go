@@ -28,11 +28,11 @@ import (
 
 	"github.com/pquerna/ffjson/ffjson"
 
-	"github.com/goodrain/rainbond/builder"
-	"github.com/goodrain/rainbond/builder/parser/code"
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/builder"
+	"rainbond/builder/parser/code"
+	"rainbond/builder/sources"
+	"rainbond/db/model"
+	"rainbond/event"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	"gopkg.in/src-d/go-git.v4/plumbing/transport"
 

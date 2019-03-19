@@ -27,7 +27,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/goodrain/rainbond/db"
+	"rainbond/db"
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/render"

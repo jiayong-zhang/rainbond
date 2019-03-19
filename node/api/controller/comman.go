@@ -21,11 +21,11 @@ package controller
 import (
 	"net/http"
 
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/core/config"
-	"github.com/goodrain/rainbond/node/core/service"
-	"github.com/goodrain/rainbond/node/kubecache"
-	"github.com/goodrain/rainbond/node/masterserver"
+	"rainbond/cmd/node/option"
+	"rainbond/node/core/config"
+	"rainbond/node/core/service"
+	"rainbond/node/kubecache"
+	"rainbond/node/masterserver"
 )
 
 var datacenterConfig *config.DataCenterConfig

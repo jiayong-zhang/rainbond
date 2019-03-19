@@ -19,12 +19,10 @@
 package license
 
 import (
-	"github.com/goodrain/rainbond/api/controller"
-	"github.com/goodrain/rainbond/api/util"
-	"net/http"
-
 	"github.com/go-chi/chi"
-
+	"net/http"
+	"rainbond/api/controller"
+	"rainbond/api/util"
 	"github.com/Sirupsen/logrus"
 )
 

@@ -21,7 +21,7 @@ package model
 import (
 	"strconv"
 
-	"github.com/goodrain/rainbond/gateway/v1"
+	"rainbond/gateway/v1"
 	apiv1 "k8s.io/api/core/v1"
 )
 

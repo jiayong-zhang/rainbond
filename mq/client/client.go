@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/mq/api/grpc/pb"
+	"rainbond/mq/api/grpc/pb"
 
 	clientv3 "github.com/coreos/etcd/clientv3"
 	etcdnaming "github.com/coreos/etcd/clientv3/naming"

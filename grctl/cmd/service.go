@@ -28,15 +28,15 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/apcera/termtables"
-	eventdb "github.com/goodrain/rainbond/eventlog/db"
-	"github.com/goodrain/rainbond/grctl/clients"
-	coreutil "github.com/goodrain/rainbond/util"
+	eventdb "rainbond/eventlog/db"
+	"rainbond/grctl/clients"
+	coreutil "rainbond/util"
 	"github.com/gorilla/websocket"
 	"github.com/gosuri/uitable"
 	"github.com/tidwall/gjson"
 	"github.com/urfave/cli"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	//conf "github.com/goodrain/rainbond/cmd/grctl/option"
+	//conf "rainbond/cmd/grctl/option"
 )
 
 //NewCmdService application service command

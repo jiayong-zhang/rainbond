@@ -26,18 +26,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goodrain/rainbond/node/nodem/logger"
+	"rainbond/node/nodem/logger"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/api"
-	"github.com/goodrain/rainbond/node/nodem/client"
-	"github.com/goodrain/rainbond/node/nodem/controller"
-	"github.com/goodrain/rainbond/node/nodem/healthy"
-	"github.com/goodrain/rainbond/node/nodem/info"
-	"github.com/goodrain/rainbond/node/nodem/monitor"
-	"github.com/goodrain/rainbond/node/nodem/service"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/cmd/node/option"
+	"rainbond/node/api"
+	"rainbond/node/nodem/client"
+	"rainbond/node/nodem/controller"
+	"rainbond/node/nodem/healthy"
+	"rainbond/node/nodem/info"
+	"rainbond/node/nodem/monitor"
+	"rainbond/node/nodem/service"
+	"rainbond/util"
 )
 
 //NodeManager node manager

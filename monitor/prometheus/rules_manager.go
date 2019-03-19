@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/cmd/monitor/option"
+	"rainbond/cmd/monitor/option"
 	yaml "gopkg.in/yaml.v2"
 )
 

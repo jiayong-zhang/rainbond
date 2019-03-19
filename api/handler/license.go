@@ -19,10 +19,9 @@
 package handler
 
 import (
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-
+	api_model "rainbond/api/model"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
 	"github.com/Sirupsen/logrus"
 	"github.com/jinzhu/gorm"
 	"github.com/pquerna/ffjson/ffjson"

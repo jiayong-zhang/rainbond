@@ -24,8 +24,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/goodrain/rainbond/eventlog/conf"
-	"github.com/goodrain/rainbond/eventlog/store"
+	"rainbond/eventlog/conf"
+	"rainbond/eventlog/store"
 
 	"golang.org/x/net/context"
 

@@ -24,8 +24,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/cmd/node/server"
+	"rainbond/cmd/node/option"
+	"rainbond/cmd/node/server"
 )
 
 func main() {

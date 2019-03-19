@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/goodrain/rainbond/api/handler"
+	"rainbond/api/handler"
 
-	"github.com/goodrain/rainbond/api/model"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/api/model"
+	httputil "rainbond/util/http"
 )
 
 func TestBatchOperation(t *testing.T) {
@@ -39,7 +39,7 @@ func TestBatchOperation(t *testing.T) {
 			Action: "upgrade",
 			Kind:   model.FromCodeBuildKing,
 			CodeInfo: model.BuildCodeInfo{
-				RepoURL:    "https://github.com/goodrain/java-maven-demo.git",
+				RepoURL:    "https://java-maven-demo.git",
 				Branch:     "master",
 				Lang:       "Java-maven",
 				ServerType: "git",

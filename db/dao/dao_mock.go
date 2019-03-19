@@ -5,7 +5,7 @@ package dao
 
 import (
 	gomock "github.com/rafrombrc/gomock/gomock"
-	model "github.com/goodrain/rainbond/db/model"
+	model "rainbond/db/model"
 	time "time"
 )
 

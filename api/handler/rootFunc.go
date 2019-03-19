@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"strings"
 
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/cmd/api/option"
+	api_model "rainbond/api/model"
+	"rainbond/cmd/api/option"
 
 	"github.com/Sirupsen/logrus"
 )

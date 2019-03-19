@@ -19,8 +19,8 @@
 package handler
 
 import (
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/api/util"
+	api_model "rainbond/api/model"
+	"rainbond/api/util"
 )
 
 //NetRulesHandler net rules handler

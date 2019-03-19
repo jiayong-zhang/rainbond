@@ -19,7 +19,7 @@
 package store
 
 import (
-	"github.com/goodrain/rainbond/gateway/annotations"
+	"rainbond/gateway/annotations"
 	"k8s.io/client-go/tools/cache"
 )
 

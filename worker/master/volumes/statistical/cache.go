@@ -27,9 +27,9 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/db"
+	"rainbond/db/model"
+	"rainbond/util"
 	"golang.org/x/net/context"
 )
 

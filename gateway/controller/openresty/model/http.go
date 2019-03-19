@@ -1,6 +1,6 @@
 package model
 
-import "github.com/goodrain/rainbond/cmd/gateway/option"
+import "rainbond/cmd/gateway/option"
 
 // HTTP contains data for nginx http configuration
 type HTTP struct {

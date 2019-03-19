@@ -21,7 +21,7 @@ package probe
 import (
 	"context"
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/util/prober/types/v1"
+	"rainbond/util/prober/types/v1"
 )
 
 //Probe probe

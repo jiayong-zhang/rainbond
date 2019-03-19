@@ -26,13 +26,13 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/eapache/channels"
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/db/model"
-	uitlprober "github.com/goodrain/rainbond/util/prober"
-	"github.com/goodrain/rainbond/util/prober/types/v1"
-	"github.com/goodrain/rainbond/worker/appm/store"
-	"github.com/goodrain/rainbond/worker/appm/thirdparty/discovery"
-	appmv1 "github.com/goodrain/rainbond/worker/appm/types/v1"
+	"rainbond/db"
+	"rainbond/db/model"
+	uitlprober "rainbond/util/prober"
+	"rainbond/util/prober/types/v1"
+	"rainbond/worker/appm/store"
+	"rainbond/worker/appm/thirdparty/discovery"
+	appmv1 "rainbond/worker/appm/types/v1"
 	corev1 "k8s.io/api/core/v1"
 )
 

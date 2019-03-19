@@ -24,10 +24,10 @@ import (
 	"io"
 	"net"
 
-	"github.com/goodrain/rainbond/eventlog/conf"
-	"github.com/goodrain/rainbond/eventlog/store"
+	"rainbond/eventlog/conf"
+	"rainbond/eventlog/store"
 
-	"github.com/goodrain/rainbond/eventlog/entry/grpc/pb"
+	"rainbond/eventlog/entry/grpc/pb"
 
 	"github.com/Sirupsen/logrus"
 	"google.golang.org/grpc"

@@ -21,17 +21,17 @@ package middleware
 import (
 	"bytes"
 	"context"
-	"github.com/goodrain/rainbond/api/handler"
+	"rainbond/api/handler"
 	"io/ioutil"
 	"net/http"
 	"strings"
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/db"
+	"rainbond/event"
 
-	httputil "github.com/goodrain/rainbond/util/http"
+	httputil "rainbond/util/http"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/go-chi/chi"

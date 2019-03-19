@@ -40,8 +40,8 @@ import (
 	//"github.com/docker/docker/client"
 	"github.com/docker/docker/client"
 	"github.com/docker/docker/pkg/archive"
-	"github.com/goodrain/rainbond/builder/model"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/builder/model"
+	"rainbond/event"
 )
 
 //ImagePull 拉取镜像

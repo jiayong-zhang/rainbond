@@ -26,8 +26,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/goodrain/rainbond/worker/master/volumes/provider/lib/controller/metrics"
-	"github.com/goodrain/rainbond/worker/master/volumes/provider/lib/util"
+	"rainbond/worker/master/volumes/provider/lib/controller/metrics"
+	"rainbond/worker/master/volumes/provider/lib/util"
 	"golang.org/x/time/rate"
 	"k8s.io/api/core/v1"
 	storage "k8s.io/api/storage/v1"

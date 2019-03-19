@@ -23,8 +23,8 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/builder/parser/discovery"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/builder/parser/discovery"
+	"rainbond/event"
 )
 
 // ThirdPartyServiceParse is one of the implematation of parser.Parser

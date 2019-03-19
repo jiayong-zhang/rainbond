@@ -27,16 +27,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/goodrain/rainbond/discover"
-	"github.com/goodrain/rainbond/discover/config"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/discover"
+	"rainbond/discover/config"
+	"rainbond/util"
 
 	"github.com/pquerna/ffjson/ffjson"
 
 	"github.com/Sirupsen/logrus"
 
-	eventclient "github.com/goodrain/rainbond/eventlog/entry/grpc/client"
-	eventpb "github.com/goodrain/rainbond/eventlog/entry/grpc/pb"
+	eventclient "rainbond/eventlog/entry/grpc/client"
+	eventpb "rainbond/eventlog/entry/grpc/pb"
 
 	"golang.org/x/net/context"
 )

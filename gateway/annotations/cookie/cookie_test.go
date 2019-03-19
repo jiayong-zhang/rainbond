@@ -19,7 +19,7 @@
 package cookie
 
 import (
-	"github.com/goodrain/rainbond/gateway/annotations/parser"
+	"rainbond/gateway/annotations/parser"
 	api "k8s.io/api/core/v1"
 	extensions "k8s.io/api/extensions/v1beta1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"

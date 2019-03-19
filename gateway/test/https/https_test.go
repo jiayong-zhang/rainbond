@@ -19,8 +19,8 @@
 package https
 
 import (
-	"github.com/goodrain/rainbond/gateway/annotations/parser"
-	"github.com/goodrain/rainbond/gateway/controller"
+	"rainbond/gateway/annotations/parser"
+	"rainbond/gateway/controller"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/api/extensions/v1beta1"
 	extensions "k8s.io/api/extensions/v1beta1"

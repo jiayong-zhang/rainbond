@@ -19,8 +19,8 @@
 package http
 
 import (
-	"github.com/goodrain/rainbond/gateway/annotations/parser"
-	"github.com/goodrain/rainbond/gateway/controller"
+	"rainbond/gateway/annotations/parser"
+	"rainbond/gateway/controller"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/api/extensions/v1beta1"
 	extensions "k8s.io/api/extensions/v1beta1"
@@ -35,7 +35,7 @@ import (
 )
 
 func TestHttpDefault(t *testing.T) {
-	clientSet, err := controller.NewClientSet("/Users/abe/go/src/github.com/goodrain/rainbond/test/admin.kubeconfig")
+	clientSet, err := controller.NewClientSet("/Users/abe/go/src/rainbond/test/admin.kubeconfig")
 	if err != nil {
 		t.Errorf("can't create Kubernetes's client: %v", err)
 	}
@@ -259,7 +259,7 @@ func TestHttpCookie(t *testing.T) {
 }
 
 func TestHttpHeader(t *testing.T) {
-	clientSet, err := controller.NewClientSet("/Users/abe/go/src/github.com/goodrain/rainbond/test/admin.kubeconfig")
+	clientSet, err := controller.NewClientSet("/Users/abe/go/src/rainbond/test/admin.kubeconfig")
 	if err != nil {
 		t.Errorf("can't create Kubernetes's client: %v", err)
 	}
@@ -368,7 +368,7 @@ func TestHttpHeader(t *testing.T) {
 }
 
 func Test_ListIngress(t *testing.T) {
-	clientSet, err := controller.NewClientSet("/Users/abe/go/src/github.com/goodrain/rainbond/test/admin.kubeconfig")
+	clientSet, err := controller.NewClientSet("/Users/abe/go/src/rainbond/test/admin.kubeconfig")
 	if err != nil {
 		t.Errorf("can't create Kubernetes's client: %v", err)
 	}
@@ -383,7 +383,7 @@ func Test_ListIngress(t *testing.T) {
 }
 
 func TestHttpUpstreamHashBy(t *testing.T) {
-	clientSet, err := controller.NewClientSet("/Users/abe/go/src/github.com/goodrain/rainbond/test/admin.kubeconfig")
+	clientSet, err := controller.NewClientSet("/Users/abe/go/src/rainbond/test/admin.kubeconfig")
 	if err != nil {
 		t.Errorf("can't create Kubernetes's client: %v", err)
 	}

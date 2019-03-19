@@ -6,14 +6,11 @@ import (
 	"os"
 	"strconv"
 	"strings"
-
-	"github.com/goodrain/rainbond/mq/client"
-
+	"rainbond/mq/client"
 	"regexp"
-
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/api/util"
+	"rainbond/api/model"
+	"rainbond/api/util"
 	"github.com/pkg/errors"
 	"github.com/tidwall/gjson"
 )

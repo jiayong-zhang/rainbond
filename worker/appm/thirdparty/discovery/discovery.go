@@ -21,8 +21,8 @@ package discovery
 import (
 	"fmt"
 	"github.com/eapache/channels"
-	"github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/worker/appm/types/v1"
+	"rainbond/db/model"
+	"rainbond/worker/appm/types/v1"
 	"strings"
 )
 

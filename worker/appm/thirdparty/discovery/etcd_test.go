@@ -21,7 +21,7 @@ package discovery
 import (
 	"fmt"
 	"github.com/eapache/channels"
-	"github.com/goodrain/rainbond/db/model"
+	"rainbond/db/model"
 	"testing"
 	"time"
 )

@@ -26,13 +26,13 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/event"
-	"github.com/goodrain/rainbond/grctl/clients"
-	"github.com/urfave/cli" //"github.com/goodrain/rainbond/grctl/clients"
+	"rainbond/builder/sources"
+	"rainbond/event"
+	"rainbond/grctl/clients"
+	"github.com/urfave/cli" //"rainbond/grctl/clients"
 )
 
 //NewCmdInit grctl init
@@ -73,7 +73,7 @@ func NewCmdInit() cli.Command {
 			cli.StringFlag{
 				Name:  "rainbond-repo",
 				Usage: "Rainbond install repo",
-				Value: "https://github.com/goodrain/rainbond-ansible.git",
+				Value: "https://rainbond-ansible.git",
 			},
 			cli.StringFlag{
 				Name:  "install-type",

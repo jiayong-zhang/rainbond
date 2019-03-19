@@ -21,7 +21,7 @@ package store
 import (
 	"time"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 )
 
 //clean clean Possible duplicate resources

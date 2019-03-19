@@ -21,11 +21,11 @@ package store
 import (
 	"errors"
 
-	"github.com/goodrain/rainbond/eventlog/db"
-	"github.com/goodrain/rainbond/eventlog/util"
-	coreutil "github.com/goodrain/rainbond/util"
+	"rainbond/eventlog/db"
+	"rainbond/eventlog/util"
+	coreutil "rainbond/util"
 
-	"github.com/goodrain/rainbond/eventlog/conf"
+	"rainbond/eventlog/conf"
 
 	"time"
 

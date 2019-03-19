@@ -19,7 +19,7 @@
 package etcd
 
 import (
-	"github.com/goodrain/rainbond/db/dao"
+	"rainbond/db/dao"
 )
 
 func (m *Manager) TenantDao() dao.TenantDao {

@@ -20,9 +20,9 @@ package entry
 
 import (
 	"errors"
-	"github.com/goodrain/rainbond/eventlog/conf"
-	"github.com/goodrain/rainbond/eventlog/store"
-	"github.com/goodrain/rainbond/eventlog/util"
+	"rainbond/eventlog/conf"
+	"rainbond/eventlog/store"
+	"rainbond/eventlog/util"
 	"net"
 	"time"
 

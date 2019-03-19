@@ -23,13 +23,13 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/goodrain/rainbond/api/handler/cloud"
+	"rainbond/api/handler/cloud"
 
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/db/model"
+	"rainbond/db"
+	"rainbond/db/model"
 
-	"github.com/goodrain/rainbond/api/middleware"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/api/middleware"
+	httputil "rainbond/util/http"
 )
 
 //ChargesVerifyController service charges verify

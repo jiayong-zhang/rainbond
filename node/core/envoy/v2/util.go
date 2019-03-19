@@ -30,7 +30,7 @@ import (
 
 	"github.com/envoyproxy/go-control-plane/pkg/cache"
 
-	v1 "github.com/goodrain/rainbond/node/core/envoy/v1"
+	v1 "rainbond/node/core/envoy/v1"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/envoyproxy/go-control-plane/pkg/util"

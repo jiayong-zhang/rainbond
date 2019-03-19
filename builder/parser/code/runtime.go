@@ -25,7 +25,7 @@ import (
 
 	simplejson "github.com/bitly/go-simplejson"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 )
 
 //ErrRuntimeNotSupport runtime not support

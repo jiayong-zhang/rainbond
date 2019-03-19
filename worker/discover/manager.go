@@ -26,13 +26,13 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/eapache/channels"
-	"github.com/goodrain/rainbond/cmd/worker/option"
-	"github.com/goodrain/rainbond/mq/api/grpc/pb"
-	"github.com/goodrain/rainbond/mq/client"
-	"github.com/goodrain/rainbond/worker/appm/controller"
-	"github.com/goodrain/rainbond/worker/appm/store"
-	"github.com/goodrain/rainbond/worker/discover/model"
-	"github.com/goodrain/rainbond/worker/handle"
+	"rainbond/cmd/worker/option"
+	"rainbond/mq/api/grpc/pb"
+	"rainbond/mq/client"
+	"rainbond/worker/appm/controller"
+	"rainbond/worker/appm/store"
+	"rainbond/worker/discover/model"
+	"rainbond/worker/handle"
 	grpc1 "google.golang.org/grpc"
 )
 

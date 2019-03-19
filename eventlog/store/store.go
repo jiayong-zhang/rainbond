@@ -21,7 +21,7 @@ package store
 import (
 	"sync"
 
-	"github.com/goodrain/rainbond/eventlog/db"
+	"rainbond/eventlog/db"
 
 	"github.com/prometheus/client_golang/prometheus"
 

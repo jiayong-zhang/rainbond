@@ -23,19 +23,19 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/goodrain/rainbond/node/nodem/envoy"
+	"rainbond/node/nodem/envoy"
 
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/api"
-	"github.com/goodrain/rainbond/node/api/controller"
-	"github.com/goodrain/rainbond/node/core/store"
-	"github.com/goodrain/rainbond/node/kubecache"
-	"github.com/goodrain/rainbond/node/masterserver"
-	"github.com/goodrain/rainbond/node/nodem"
+	"rainbond/cmd/node/option"
+	"rainbond/node/api"
+	"rainbond/node/api/controller"
+	"rainbond/node/core/store"
+	"rainbond/node/kubecache"
+	"rainbond/node/masterserver"
+	"rainbond/node/nodem"
 
 	"github.com/Sirupsen/logrus"
 
-	eventLog "github.com/goodrain/rainbond/event"
+	eventLog "rainbond/event"
 
 	"os/signal"
 )

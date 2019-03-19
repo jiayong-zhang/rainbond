@@ -21,8 +21,8 @@ package region
 import (
 	"testing"
 
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	utilhttp "github.com/goodrain/rainbond/util/http"
+	dbmodel "rainbond/db/model"
+	utilhttp "rainbond/util/http"
 )
 
 func TestListTenant(t *testing.T) {
@@ -90,9 +90,9 @@ func TestGetNodes(t *testing.T) {
 func TestGetTenantsBySSL(t *testing.T) {
 	region, _ := NewRegion(APIConf{
 		Endpoints: []string{"https://127.0.0.1:8443"},
-		Cacert:    "/Users/qingguo/gopath/src/github.com/goodrain/rainbond/test/ssl/ca.pem",
-		Cert:      "/Users/qingguo/gopath/src/github.com/goodrain/rainbond/test/ssl/client.pem",
-		CertKey:   "/Users/qingguo/gopath/src/github.com/goodrain/rainbond/test/ssl/client.key.pem",
+		Cacert:    "/Users/qingguo/gopath/src/rainbond/test/ssl/ca.pem",
+		Cert:      "/Users/qingguo/gopath/src/rainbond/test/ssl/client.pem",
+		CertKey:   "/Users/qingguo/gopath/src/rainbond/test/ssl/client.key.pem",
 	})
 	tenants, err := region.Tenants("").List()
 	if err != nil {

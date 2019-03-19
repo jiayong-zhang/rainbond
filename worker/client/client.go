@@ -24,9 +24,9 @@ import (
 	"github.com/Sirupsen/logrus"
 	"github.com/coreos/etcd/clientv3"
 	etcdnaming "github.com/coreos/etcd/clientv3/naming"
-	"github.com/goodrain/rainbond/db/model"
-	v1 "github.com/goodrain/rainbond/worker/appm/types/v1"
-	"github.com/goodrain/rainbond/worker/server/pb"
+	"rainbond/db/model"
+	v1 "rainbond/worker/appm/types/v1"
+	"rainbond/worker/server/pb"
 	"google.golang.org/grpc"
 )
 

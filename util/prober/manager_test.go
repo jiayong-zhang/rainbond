@@ -21,7 +21,7 @@ package prober
 import (
 	"context"
 	"fmt"
-	"github.com/goodrain/rainbond/util/prober/types/v1"
+	"rainbond/util/prober/types/v1"
 	"testing"
 )
 

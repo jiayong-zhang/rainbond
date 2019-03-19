@@ -21,7 +21,7 @@ package controller
 import (
 	"net/http"
 
-	"github.com/goodrain/rainbond/api/proxy"
+	"rainbond/api/proxy"
 
 	"github.com/Sirupsen/logrus"
 )

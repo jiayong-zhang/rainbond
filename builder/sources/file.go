@@ -28,9 +28,9 @@ import (
 
 	"github.com/twinj/uuid"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
-	"github.com/goodrain/rainbond/event"
+	"rainbond/event"
 )
 
 //CopyFileWithProgress 复制文件，带进度

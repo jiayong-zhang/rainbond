@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/goodrain/rainbond/worker/server/pb"
+	"rainbond/worker/server/pb"
 )
 
 func TestGetAppStatus(t *testing.T) {

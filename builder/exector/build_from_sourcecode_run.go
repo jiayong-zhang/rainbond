@@ -25,13 +25,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goodrain/rainbond/builder"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/builder"
+	"rainbond/util"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/builder/parser"
-	"github.com/goodrain/rainbond/builder/parser/code"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/builder/parser"
+	"rainbond/builder/parser/code"
+	"rainbond/event"
 	"github.com/pquerna/ffjson/ffjson"
 	"github.com/tidwall/gjson"
 
@@ -40,10 +40,10 @@ import (
 	//"github.com/docker/docker/client"
 
 	"github.com/docker/docker/client"
-	"github.com/goodrain/rainbond/builder/build"
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
+	"rainbond/builder/build"
+	"rainbond/builder/sources"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
 )
 
 //SourceCodeBuildItem SouceCodeBuildItem

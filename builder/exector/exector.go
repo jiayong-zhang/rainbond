@@ -29,14 +29,14 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/docker/docker/client"
-	"github.com/goodrain/rainbond/cmd/builder/option"
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/event"
-	"github.com/goodrain/rainbond/mq/api/grpc/pb"
-	mqclient "github.com/goodrain/rainbond/mq/client"
-	"github.com/goodrain/rainbond/util"
-	workermodel "github.com/goodrain/rainbond/worker/discover/model"
+	"rainbond/cmd/builder/option"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
+	"rainbond/event"
+	"rainbond/mq/api/grpc/pb"
+	mqclient "rainbond/mq/client"
+	"rainbond/util"
+	workermodel "rainbond/worker/discover/model"
 	"github.com/tidwall/gjson"
 )
 

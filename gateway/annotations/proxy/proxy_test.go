@@ -24,9 +24,9 @@ import (
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	"github.com/goodrain/rainbond/gateway/defaults"
-	"github.com/goodrain/rainbond/gateway/annotations/parser"
-	"github.com/goodrain/rainbond/gateway/annotations/resolver"
+	"rainbond/gateway/defaults"
+	"rainbond/gateway/annotations/parser"
+	"rainbond/gateway/annotations/resolver"
 )
 
 func buildIngress() *extensions.Ingress {

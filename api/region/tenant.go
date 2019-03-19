@@ -21,9 +21,9 @@ package region
 import (
 	"path"
 
-	"github.com/goodrain/rainbond/api/util"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	utilhttp "github.com/goodrain/rainbond/util/http"
+	"rainbond/api/util"
+	dbmodel "rainbond/db/model"
+	utilhttp "rainbond/util/http"
 )
 
 type tenant struct {

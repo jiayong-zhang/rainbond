@@ -34,12 +34,12 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/golang/glog"
-	"github.com/goodrain/rainbond/cmd/gateway/option"
-	"github.com/goodrain/rainbond/gateway/controller/openresty/model"
-	"github.com/goodrain/rainbond/gateway/controller/openresty/template"
-	v1 "github.com/goodrain/rainbond/gateway/v1"
-	"github.com/goodrain/rainbond/util"
-	"github.com/goodrain/rainbond/util/cert"
+	"rainbond/cmd/gateway/option"
+	"rainbond/gateway/controller/openresty/model"
+	"rainbond/gateway/controller/openresty/template"
+	v1 "rainbond/gateway/v1"
+	"rainbond/util"
+	"rainbond/util/cert"
 )
 
 // OrService handles the business logic of OpenrestyService

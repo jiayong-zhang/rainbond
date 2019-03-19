@@ -28,22 +28,22 @@ import (
 	"os"
 	"time"
 
-	"github.com/goodrain/rainbond/api/handler"
+	"rainbond/api/handler"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
 	"github.com/coreos/etcd/clientv3"
-	"github.com/goodrain/rainbond/cmd/api/option"
+	"rainbond/cmd/api/option"
 
-	"github.com/goodrain/rainbond/api/api_routers/doc"
-	"github.com/goodrain/rainbond/api/api_routers/license"
-	"github.com/goodrain/rainbond/api/proxy"
+	"rainbond/api/api_routers/doc"
+	"rainbond/api/api_routers/license"
+	"rainbond/api/proxy"
 
-	"github.com/goodrain/rainbond/api/api_routers/cloud"
-	"github.com/goodrain/rainbond/api/api_routers/version2"
-	"github.com/goodrain/rainbond/api/api_routers/websocket"
+	"rainbond/api/api_routers/cloud"
+	"rainbond/api/api_routers/version2"
+	"rainbond/api/api_routers/websocket"
 
-	apimiddleware "github.com/goodrain/rainbond/api/middleware"
+	apimiddleware "rainbond/api/middleware"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/go-chi/chi"

@@ -27,9 +27,9 @@ import (
 
 	"k8s.io/apimachinery/pkg/labels"
 
-	"github.com/goodrain/rainbond/node/nodem/envoy/conver"
+	"rainbond/node/nodem/envoy/conver"
 
-	api_model "github.com/goodrain/rainbond/api/model"
+	api_model "rainbond/api/model"
 	corev1 "k8s.io/api/core/v1"
 
 	"github.com/Sirupsen/logrus"
@@ -38,8 +38,8 @@ import (
 	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v2"
 	"github.com/envoyproxy/go-control-plane/pkg/cache"
 	"github.com/envoyproxy/go-control-plane/pkg/server"
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/kubecache"
+	"rainbond/cmd/node/option"
+	"rainbond/node/kubecache"
 	"google.golang.org/grpc"
 )
 

@@ -20,7 +20,7 @@ package router
 
 import (
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/node/api/controller"
+	"rainbond/node/api/controller"
 )
 
 //DisconverRoutes envoy discover api

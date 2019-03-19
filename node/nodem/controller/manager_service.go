@@ -28,10 +28,10 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/coreos/etcd/clientv3"
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/nodem/client"
-	"github.com/goodrain/rainbond/node/nodem/healthy"
-	"github.com/goodrain/rainbond/node/nodem/service"
+	"rainbond/cmd/node/option"
+	"rainbond/node/nodem/client"
+	"rainbond/node/nodem/healthy"
+	"rainbond/node/nodem/service"
 )
 
 var (

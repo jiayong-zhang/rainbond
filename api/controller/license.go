@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/goodrain/rainbond/api/handler"
+	"rainbond/api/handler"
 
-	httputil "github.com/goodrain/rainbond/util/http"
+	httputil "rainbond/util/http"
 
 	"github.com/Sirupsen/logrus"
 	validator "github.com/thedevsaddam/govalidator"

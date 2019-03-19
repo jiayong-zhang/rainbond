@@ -21,11 +21,11 @@ package kubecache
 import (
 	"testing"
 
-	"github.com/goodrain/rainbond/cmd/node/option"
+	"rainbond/cmd/node/option"
 )
 
 func TestNewKubeClient(t *testing.T) {
-	client, err := NewKubeClient(&option.Conf{K8SConfPath: "/Users/qingguo/gopath/src/github.com/goodrain/rainbond/test/admin.kubeconfig"})
+	client, err := NewKubeClient(&option.Conf{K8SConfPath: "/Users/qingguo/gopath/src/rainbond/test/admin.kubeconfig"})
 	if err != nil {
 		t.Fatal(err)
 	}

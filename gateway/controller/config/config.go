@@ -19,7 +19,7 @@
 package config
 
 import (
-	"github.com/goodrain/rainbond/gateway/defaults"
+	"rainbond/gateway/defaults"
 )
 
 const (

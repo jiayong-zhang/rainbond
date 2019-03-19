@@ -21,8 +21,8 @@ package mysql
 import (
 	"sync"
 
-	"github.com/goodrain/rainbond/db/config"
-	"github.com/goodrain/rainbond/db/model"
+	"rainbond/db/config"
+	"rainbond/db/model"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/jinzhu/gorm"

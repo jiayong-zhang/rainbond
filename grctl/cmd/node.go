@@ -31,10 +31,10 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/apcera/termtables"
-	"github.com/goodrain/rainbond/api/util"
-	"github.com/goodrain/rainbond/grctl/clients"
-	"github.com/goodrain/rainbond/node/nodem/client"
-	coreutil "github.com/goodrain/rainbond/util"
+	"rainbond/api/util"
+	"rainbond/grctl/clients"
+	"rainbond/node/nodem/client"
+	coreutil "rainbond/util"
 	"github.com/gosuri/uitable"
 	"github.com/urfave/cli"
 )

@@ -20,7 +20,7 @@ package mq
 
 import (
 	"context"
-	"github.com/goodrain/rainbond/cmd/mq/option"
+	"rainbond/cmd/mq/option"
 	"testing"
 )
 

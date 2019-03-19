@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/goodrain/rainbond/eventlog/db"
+	"rainbond/eventlog/db"
 
 	"github.com/Sirupsen/logrus"
 )

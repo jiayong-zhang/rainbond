@@ -20,9 +20,9 @@ package db
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/db/config"
-	"github.com/goodrain/rainbond/eventlog/conf"
+	"rainbond/db"
+	"rainbond/db/config"
+	"rainbond/eventlog/conf"
 	"time"
 )
 

@@ -19,7 +19,7 @@
 package clients
 
 import (
-	"github.com/goodrain/rainbond/api/region"
+	"rainbond/api/region"
 )
 
 //RegionClient region api

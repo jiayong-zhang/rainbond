@@ -39,8 +39,8 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 
-	"github.com/goodrain/rainbond/event"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/event"
+	"rainbond/util"
 	netssh "golang.org/x/crypto/ssh"
 	sshkey "golang.org/x/crypto/ssh"
 	"gopkg.in/src-d/go-git.v4"

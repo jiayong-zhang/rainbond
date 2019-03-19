@@ -21,9 +21,9 @@ package entry
 import (
 	"errors"
 
-	"github.com/goodrain/rainbond/eventlog/conf"
-	grpcserver "github.com/goodrain/rainbond/eventlog/entry/grpc/server"
-	"github.com/goodrain/rainbond/eventlog/store"
+	"rainbond/eventlog/conf"
+	grpcserver "rainbond/eventlog/entry/grpc/server"
+	"rainbond/eventlog/store"
 
 	"golang.org/x/net/context"
 

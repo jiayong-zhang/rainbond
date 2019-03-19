@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/util"
-	"github.com/goodrain/rainbond/util/prober/probes"
-	"github.com/goodrain/rainbond/util/prober/types/v1"
+	"rainbond/util"
+	"rainbond/util/prober/probes"
+	"rainbond/util/prober/types/v1"
 )
 
 //Prober Prober

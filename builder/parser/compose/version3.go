@@ -33,7 +33,7 @@ import (
 
 	"os"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 )
 
 // converts os.Environ() ([]string) to map[string]string

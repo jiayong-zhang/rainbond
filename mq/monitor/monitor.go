@@ -19,7 +19,7 @@
 package monitor
 
 import (
-	"github.com/goodrain/rainbond/mq/api/mq"
+	"rainbond/mq/api/mq"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goodrain/rainbond/eventlog/conf"
-	"github.com/goodrain/rainbond/eventlog/util"
+	"rainbond/eventlog/conf"
+	"rainbond/eventlog/util"
 
 	"fmt"
 

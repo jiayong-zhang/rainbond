@@ -23,7 +23,7 @@ import (
 	"os/exec"
 	"path"
 
-	"github.com/goodrain/rainbond/gateway/controller/openresty/template"
+	"rainbond/gateway/controller/openresty/template"
 )
 
 var (

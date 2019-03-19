@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/db/model"
+	"rainbond/db/model"
 	"github.com/jinzhu/gorm"
 )
 

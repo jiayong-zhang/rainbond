@@ -21,7 +21,7 @@ package dao
 import (
 	"time"
 
-	"github.com/goodrain/rainbond/db/model"
+	"rainbond/db/model"
 )
 
 //Dao 数据持久化层接口

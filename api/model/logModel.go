@@ -19,7 +19,7 @@
 package model
 
 import (
-	eventdb "github.com/goodrain/rainbond/eventlog/db"
+	eventdb "rainbond/eventlog/db"
 )
 
 //LogData log data

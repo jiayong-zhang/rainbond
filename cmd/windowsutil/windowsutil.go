@@ -29,11 +29,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/goodrain/rainbond/util/windows"
+	"rainbond/util/windows"
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/goodrain/rainbond/cmd/windowsutil/option"
+	"rainbond/cmd/windowsutil/option"
 	"github.com/spf13/pflag"
 )
 

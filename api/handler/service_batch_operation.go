@@ -19,8 +19,8 @@
 package handler
 
 import (
-	"github.com/goodrain/rainbond/api/model"
-	gclient "github.com/goodrain/rainbond/mq/client"
+	"rainbond/api/model"
+	gclient "rainbond/mq/client"
 )
 
 //BatchOperationHandler batch operation handler

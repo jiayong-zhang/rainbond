@@ -24,17 +24,17 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/goodrain/rainbond/util/disk"
+	"rainbond/util/disk"
 
-	api "github.com/goodrain/rainbond/util/http"
+	api "rainbond/util/http"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/go-chi/chi"
 
 	"strconv"
 
-	"github.com/goodrain/rainbond/node/api/model"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/node/api/model"
+	httputil "rainbond/util/http"
 )
 
 //GetNodeDetails GetNodeDetails

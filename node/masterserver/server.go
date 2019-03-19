@@ -23,12 +23,12 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/goodrain/rainbond/node/kubecache"
-	"github.com/goodrain/rainbond/node/nodem/client"
+	"rainbond/node/kubecache"
+	"rainbond/node/nodem/client"
 
-	"github.com/goodrain/rainbond/node/core/config"
-	"github.com/goodrain/rainbond/node/core/store"
-	"github.com/goodrain/rainbond/node/masterserver/node"
+	"rainbond/node/core/config"
+	"rainbond/node/core/store"
+	"rainbond/node/masterserver/node"
 )
 
 //MasterServer 主节点服务

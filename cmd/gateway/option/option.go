@@ -23,7 +23,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/spf13/pflag"

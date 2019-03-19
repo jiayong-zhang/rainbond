@@ -20,7 +20,7 @@ package version2
 
 import (
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/api/controller"
+	"rainbond/api/controller"
 )
 
 //PluginRouter plugin router

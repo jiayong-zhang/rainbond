@@ -31,7 +31,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	httputil "github.com/goodrain/rainbond/util/http"
+	httputil "rainbond/util/http"
 	"github.com/gorilla/websocket"
 	"github.com/kr/pty"
 	"github.com/prometheus/client_golang/prometheus"

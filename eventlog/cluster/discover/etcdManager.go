@@ -20,7 +20,7 @@ package discover
 
 import (
 	"errors"
-	"github.com/goodrain/rainbond/eventlog/conf"
+	"rainbond/eventlog/conf"
 	"time"
 
 	"golang.org/x/net/context"

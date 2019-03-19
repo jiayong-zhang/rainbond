@@ -26,11 +26,11 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/util"
-	typesv1 "github.com/goodrain/rainbond/worker/appm/types/v1"
+	api_model "rainbond/api/model"
+	"rainbond/db"
+	"rainbond/db/model"
+	"rainbond/util"
+	typesv1 "rainbond/worker/appm/types/v1"
 	"github.com/jinzhu/gorm"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"

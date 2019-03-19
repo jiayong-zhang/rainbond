@@ -23,14 +23,14 @@ import (
 	"os"
 	"strings"
 
-	httputil "github.com/goodrain/rainbond/util/http"
+	httputil "rainbond/util/http"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/go-chi/chi"
 
-	"github.com/goodrain/rainbond/api/handler"
-	"github.com/goodrain/rainbond/api/middleware"
-	api_model "github.com/goodrain/rainbond/api/model"
+	"rainbond/api/handler"
+	"rainbond/api/middleware"
+	api_model "rainbond/api/model"
 )
 
 //EventLogStruct eventlog struct

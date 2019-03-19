@@ -26,9 +26,9 @@ import (
 	"runtime"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
-	httputil "github.com/goodrain/rainbond/util/http"
+	httputil "rainbond/util/http"
 )
 
 //CreateLocalVolume crete local volume dir

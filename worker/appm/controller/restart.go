@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/worker/appm/conversion"
+	"rainbond/db"
+	"rainbond/worker/appm/conversion"
 
 	"github.com/Sirupsen/logrus"
-	v1 "github.com/goodrain/rainbond/worker/appm/types/v1"
+	v1 "rainbond/worker/appm/types/v1"
 )
 
 type restartController struct {

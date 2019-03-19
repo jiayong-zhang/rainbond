@@ -23,14 +23,14 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/goodrain/rainbond/node/api/model"
-	"github.com/goodrain/rainbond/node/nodem/client"
+	"rainbond/node/api/model"
+	"rainbond/node/nodem/client"
 	"github.com/pquerna/ffjson/ffjson"
 
-	//"github.com/goodrain/rainbond/grctl/cmd"
+	//"rainbond/grctl/cmd"
 
-	"github.com/goodrain/rainbond/api/util"
-	utilhttp "github.com/goodrain/rainbond/util/http"
+	"rainbond/api/util"
+	utilhttp "rainbond/util/http"
 )
 
 func (r *regionImpl) Tasks() TaskInterface {

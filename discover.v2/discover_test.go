@@ -19,7 +19,7 @@
 package discover
 
 import (
-	"github.com/goodrain/rainbond/discover/config"
+	"rainbond/discover/config"
 	"testing"
 
 	"github.com/Sirupsen/logrus"

@@ -21,11 +21,11 @@ package controller
 import (
 	"net/http"
 
-	"github.com/goodrain/rainbond/api/util"
+	"rainbond/api/util"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/go-chi/chi"
-	httputil "github.com/goodrain/rainbond/util/http"
+	httputil "rainbond/util/http"
 )
 
 //ServiceDiscover service discover service

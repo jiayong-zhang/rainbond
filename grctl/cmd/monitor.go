@@ -6,7 +6,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/ghodss/yaml"
-	"github.com/goodrain/rainbond/grctl/clients"
+	"rainbond/grctl/clients"
 	"github.com/urfave/cli"
 )
 

@@ -22,9 +22,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/goodrain/rainbond/db/config"
-	"github.com/goodrain/rainbond/db/dao"
-	"github.com/goodrain/rainbond/db/mysql"
+	"rainbond/db/config"
+	"rainbond/db/dao"
+	"rainbond/db/mysql"
 
 	"github.com/jinzhu/gorm"
 )

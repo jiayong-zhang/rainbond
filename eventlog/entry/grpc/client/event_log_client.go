@@ -20,7 +20,7 @@ package client
 
 import (
 	"context"
-	"github.com/goodrain/rainbond/eventlog/entry/grpc/pb"
+	"rainbond/eventlog/entry/grpc/pb"
 
 	grpc1 "google.golang.org/grpc"
 )

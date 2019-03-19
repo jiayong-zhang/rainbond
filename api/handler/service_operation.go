@@ -23,13 +23,13 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/event"
-	gclient "github.com/goodrain/rainbond/mq/client"
-	"github.com/goodrain/rainbond/util"
-	dmodel "github.com/goodrain/rainbond/worker/discover/model"
+	"rainbond/api/model"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
+	"rainbond/event"
+	gclient "rainbond/mq/client"
+	"rainbond/util"
+	dmodel "rainbond/worker/discover/model"
 )
 
 //OperationHandler operation handler

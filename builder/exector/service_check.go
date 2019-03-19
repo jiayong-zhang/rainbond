@@ -25,9 +25,9 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/ghodss/yaml"
-	"github.com/goodrain/rainbond/builder/parser"
-	"github.com/goodrain/rainbond/event"
-	"github.com/goodrain/rainbond/mq/api/grpc/pb"
+	"rainbond/builder/parser"
+	"rainbond/event"
+	"rainbond/mq/api/grpc/pb"
 	"github.com/pquerna/ffjson/ffjson"
 )
 

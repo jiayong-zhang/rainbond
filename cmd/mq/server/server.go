@@ -23,9 +23,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/goodrain/rainbond/cmd/mq/option"
-	discover "github.com/goodrain/rainbond/discover.v2"
-	"github.com/goodrain/rainbond/mq/api"
+	"rainbond/cmd/mq/option"
+	discover "rainbond/discover.v2"
+	"rainbond/mq/api"
 
 	"github.com/Sirupsen/logrus"
 )

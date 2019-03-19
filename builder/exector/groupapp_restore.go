@@ -29,15 +29,15 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 
-	"github.com/goodrain/rainbond/builder"
-	"github.com/goodrain/rainbond/builder/sources"
-	dbmodel "github.com/goodrain/rainbond/db/model"
+	"rainbond/builder"
+	"rainbond/builder/sources"
+	dbmodel "rainbond/db/model"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/docker/docker/client"
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/event"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/db"
+	"rainbond/event"
+	"rainbond/util"
 	"github.com/pquerna/ffjson/ffjson"
 	"github.com/tidwall/gjson"
 )

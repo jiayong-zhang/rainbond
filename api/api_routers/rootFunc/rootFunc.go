@@ -19,9 +19,8 @@
 package rootFunc
 
 import (
-	"github.com/goodrain/rainbond/api/controller"
-
 	"github.com/go-chi/chi"
+	"rainbond/api/controller"
 )
 
 //Root root struct

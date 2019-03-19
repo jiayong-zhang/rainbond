@@ -23,8 +23,8 @@ import (
 	"strings"
 
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/node/api"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/node/api"
+	httputil "rainbond/util/http"
 )
 
 //SetAPIRoute set api route

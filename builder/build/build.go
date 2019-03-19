@@ -23,9 +23,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/goodrain/rainbond/builder"
-	"github.com/goodrain/rainbond/builder/parser/code"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/builder"
+	"rainbond/builder/parser/code"
+	"rainbond/event"
 
 	"github.com/docker/docker/client"
 )

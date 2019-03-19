@@ -24,7 +24,7 @@ import (
 	"testing"
 
 	"github.com/docker/docker/client"
-	"github.com/goodrain/rainbond/cmd/node/option"
+	"rainbond/cmd/node/option"
 )
 
 func TestWatchConatainer(t *testing.T) {

@@ -17,9 +17,9 @@ limitations under the License.
 package rewrite
 
 import (
-	"github.com/goodrain/rainbond/gateway/annotations/parser"
-	"github.com/goodrain/rainbond/gateway/annotations/resolver"
-	"github.com/goodrain/rainbond/gateway/defaults"
+	"rainbond/gateway/annotations/parser"
+	"rainbond/gateway/annotations/resolver"
+	"rainbond/gateway/defaults"
 	"testing"
 
 	api "k8s.io/api/core/v1"

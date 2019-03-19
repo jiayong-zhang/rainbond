@@ -28,7 +28,7 @@ import (
 	"github.com/coreos/etcd/clientv3"
 	client "github.com/coreos/etcd/clientv3"
 	etcdnaming "github.com/coreos/etcd/clientv3/naming"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 	"google.golang.org/grpc/naming"
 )
 

@@ -22,7 +22,7 @@ import (
 	"fmt"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/eventlog/conf"
+	"rainbond/eventlog/conf"
 )
 
 type Manager interface {

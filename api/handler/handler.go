@@ -20,18 +20,14 @@ package handler
 
 import (
 	"time"
-
-	"github.com/goodrain/rainbond/db"
-
-	"github.com/goodrain/rainbond/api/handler/group"
-
-	"github.com/goodrain/rainbond/api/handler/share"
-
+	"rainbond/db"
+	"rainbond/api/handler/group"
+	"rainbond/api/handler/share"
 	"github.com/Sirupsen/logrus"
 	"github.com/coreos/etcd/clientv3"
-	api_db "github.com/goodrain/rainbond/api/db"
-	"github.com/goodrain/rainbond/cmd/api/option"
-	"github.com/goodrain/rainbond/worker/client"
+	api_db "rainbond/api/db"
+	"rainbond/cmd/api/option"
+	"rainbond/worker/client"
 )
 
 //InitHandle 初始化handle

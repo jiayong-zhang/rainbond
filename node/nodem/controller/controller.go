@@ -19,7 +19,7 @@
 package controller
 
 import (
-	"github.com/goodrain/rainbond/node/nodem/service"
+	"rainbond/node/nodem/service"
 )
 
 //Controller service daemon controller

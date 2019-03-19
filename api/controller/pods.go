@@ -22,11 +22,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/goodrain/rainbond/api/handler"
-	"github.com/goodrain/rainbond/api/middleware"
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/db/model"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/api/handler"
+	"rainbond/api/middleware"
+	"rainbond/db"
+	"rainbond/db/model"
+	httputil "rainbond/util/http"
 )
 
 //Pods get some service pods

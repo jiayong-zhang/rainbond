@@ -19,7 +19,7 @@
 package dao
 
 import (
-	"github.com/goodrain/rainbond/db/model"
+	"rainbond/db/model"
 
 	"github.com/jinzhu/gorm"
 )

@@ -18,7 +18,7 @@
 
 package worker
 
-import "github.com/goodrain/rainbond/node/api/model"
+import "rainbond/node/api/model"
 
 type taskGroupWorker struct {
 	taskGroup *model.TaskGroup

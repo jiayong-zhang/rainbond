@@ -23,11 +23,11 @@ import (
 	"strings"
 	"time"
 
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/api/util"
-	"github.com/goodrain/rainbond/cmd/api/option"
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
+	api_model "rainbond/api/model"
+	"rainbond/api/util"
+	"rainbond/cmd/api/option"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
 )
 
 //TokenIdenAction  TokenIdenAction

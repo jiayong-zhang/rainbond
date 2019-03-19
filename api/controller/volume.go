@@ -25,11 +25,11 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/api/handler"
-	"github.com/goodrain/rainbond/api/middleware"
-	api_model "github.com/goodrain/rainbond/api/model"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/api/handler"
+	"rainbond/api/middleware"
+	api_model "rainbond/api/model"
+	dbmodel "rainbond/db/model"
+	httputil "rainbond/util/http"
 )
 
 //VolumeDependency VolumeDependency

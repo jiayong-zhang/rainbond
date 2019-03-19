@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/goodrain/rainbond/builder"
-	"github.com/goodrain/rainbond/builder/sources"
+	"rainbond/builder"
+	"rainbond/builder/sources"
 )
 
 func TestParseDockerfileInfo(t *testing.T) {

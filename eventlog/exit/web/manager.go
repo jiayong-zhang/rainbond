@@ -24,11 +24,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/goodrain/rainbond/eventlog/cluster"
-	"github.com/goodrain/rainbond/eventlog/cluster/discover"
-	"github.com/goodrain/rainbond/eventlog/conf"
-	"github.com/goodrain/rainbond/eventlog/exit/monitor"
-	"github.com/goodrain/rainbond/eventlog/store"
+	"rainbond/eventlog/cluster"
+	"rainbond/eventlog/cluster/discover"
+	"rainbond/eventlog/conf"
+	"rainbond/eventlog/exit/monitor"
+	"rainbond/eventlog/store"
 
 	"golang.org/x/net/context"
 
@@ -39,7 +39,7 @@ import (
 	_ "net/http/pprof"
 
 	"github.com/Sirupsen/logrus"
-	httputil "github.com/goodrain/rainbond/util/http"
+	httputil "rainbond/util/http"
 	"github.com/gorilla/websocket"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

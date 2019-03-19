@@ -22,12 +22,12 @@ import (
 	"net/http"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/api/api"
-	"github.com/goodrain/rainbond/api/discover"
-	"github.com/goodrain/rainbond/api/proxy"
-	"github.com/goodrain/rainbond/cmd/api/option"
-	mqclient "github.com/goodrain/rainbond/mq/client"
-	"github.com/goodrain/rainbond/worker/client"
+	"rainbond/api/api"
+	"rainbond/api/discover"
+	"rainbond/api/proxy"
+	"rainbond/cmd/api/option"
+	mqclient "rainbond/mq/client"
+	"rainbond/worker/client"
 )
 
 //V2Manager v2 manager

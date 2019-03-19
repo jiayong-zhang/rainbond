@@ -26,18 +26,18 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/node/nodem/client"
-	"github.com/goodrain/rainbond/node/utils"
+	"rainbond/node/nodem/client"
+	"rainbond/node/utils"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/version"
 
-	"github.com/goodrain/rainbond/node/api/model"
+	"rainbond/node/api/model"
 
 	"errors"
 	"io/ioutil"
 	"strconv"
 
-	httputil "github.com/goodrain/rainbond/util/http"
+	httputil "rainbond/util/http"
 )
 
 func init() {

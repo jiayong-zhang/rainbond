@@ -23,17 +23,17 @@ import (
 	"os"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/builder"
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/builder"
+	"rainbond/builder/sources"
+	"rainbond/event"
 	"github.com/pquerna/ffjson/ffjson"
 
 	//"github.com/docker/docker/api/types"
 
 	//"github.com/docker/docker/client"
 
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
 )
 
 //MarketSlugItem MarketSlugItem

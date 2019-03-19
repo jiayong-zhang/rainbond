@@ -19,7 +19,7 @@
 package handler
 
 import (
-	"github.com/goodrain/rainbond/cmd/api/option"
+	"rainbond/cmd/api/option"
 )
 
 //RootFuncHandler root function handler interface

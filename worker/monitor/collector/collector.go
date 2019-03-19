@@ -19,10 +19,10 @@
 package collector
 
 import (
-	"github.com/goodrain/rainbond/worker/master"
+	"rainbond/worker/master"
 
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/worker/discover"
+	"rainbond/db"
+	"rainbond/worker/discover"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

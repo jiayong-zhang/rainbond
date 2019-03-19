@@ -25,9 +25,9 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/docker/docker/api/types"
-	"github.com/goodrain/rainbond/builder"
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/builder"
+	"rainbond/builder/sources"
+	"rainbond/util"
 )
 
 func dockerfileBuilder() (Build, error) {

@@ -22,7 +22,7 @@ import (
 	"fmt"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/worker/appm/types/v1"
+	"rainbond/worker/appm/types/v1"
 	corev1 "k8s.io/api/core/v1"
 	extensions "k8s.io/api/extensions/v1beta1"
 	k8sErrors "k8s.io/apimachinery/pkg/api/errors"

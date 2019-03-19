@@ -21,8 +21,8 @@ package server
 import (
 	"fmt"
 
-	"github.com/goodrain/rainbond/mq/api/grpc/pb"
-	"github.com/goodrain/rainbond/mq/api/mq"
+	"rainbond/mq/api/grpc/pb"
+	"rainbond/mq/api/mq"
 
 	"github.com/Sirupsen/logrus"
 

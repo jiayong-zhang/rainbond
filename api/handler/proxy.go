@@ -19,9 +19,9 @@
 package handler
 
 import (
-	"github.com/goodrain/rainbond/api/discover"
-	"github.com/goodrain/rainbond/api/proxy"
-	"github.com/goodrain/rainbond/cmd/api/option"
+	"rainbond/api/discover"
+	"rainbond/api/proxy"
+	"rainbond/cmd/api/option"
 )
 
 var nodeProxy proxy.Proxy

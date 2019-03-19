@@ -21,15 +21,15 @@ package api
 import (
 	"net/http"
 
-	"github.com/goodrain/rainbond/builder/sources"
+	"rainbond/builder/sources"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
 	"strings"
 
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/builder/api/controller"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/builder/api/controller"
+	httputil "rainbond/util/http"
 )
 
 func APIServer() *chi.Mux {

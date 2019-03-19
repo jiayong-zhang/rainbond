@@ -3,21 +3,18 @@ package controller
 import (
 	"fmt"
 	"net/http"
-
 	"io"
 	"os"
+	"rainbond/api/controller/upload"
+	"rainbond/api/handler"
+	"rainbond/api/model"
 	"strings"
-
 	"io/ioutil"
 	"path/filepath"
-
 	"github.com/Sirupsen/logrus"
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/api/controller/upload"
-	"github.com/goodrain/rainbond/api/handler"
-	"github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/db"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/db"
+	httputil "rainbond/util/http"
 	"github.com/jinzhu/gorm"
 )
 

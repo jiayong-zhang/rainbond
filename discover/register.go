@@ -27,7 +27,7 @@ import (
 	"github.com/Sirupsen/logrus"
 	"github.com/coreos/etcd/clientv3"
 	client "github.com/coreos/etcd/clientv3"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 )
 
 //KeepAlive 服务注册

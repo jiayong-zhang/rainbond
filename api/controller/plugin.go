@@ -21,15 +21,15 @@ package controller
 import (
 	"net/http"
 
-	"github.com/goodrain/rainbond/api/handler/share"
+	"rainbond/api/handler/share"
 
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/api/handler"
-	"github.com/goodrain/rainbond/api/middleware"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/api/handler"
+	"rainbond/api/middleware"
+	"rainbond/util"
 
-	api_model "github.com/goodrain/rainbond/api/model"
-	httputil "github.com/goodrain/rainbond/util/http"
+	api_model "rainbond/api/model"
+	httputil "rainbond/util/http"
 )
 
 //PluginAction plugin action

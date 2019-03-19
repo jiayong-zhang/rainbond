@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	dbmodel "github.com/goodrain/rainbond/db/model"
+	dbmodel "rainbond/db/model"
 )
 
 //ServiceGetCommon path参数
@@ -913,7 +913,7 @@ type ServiceCheckStruct struct {
 
 		CheckOS string `json:"check_os"`
 		// 检测来源定义，
-		// 代码： https://github.com/goodrain/rainbond.git master
+		// 代码： https://rainbond.git master
 		// docker-run: docker run --name xxx nginx:latest nginx
 		// docker-compose: compose全文
 		// in: body

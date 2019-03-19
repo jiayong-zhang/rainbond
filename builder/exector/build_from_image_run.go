@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/goodrain/rainbond/builder"
+	"rainbond/builder"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/event"
 	"github.com/tidwall/gjson"
 
 	//"github.com/docker/docker/api/types"
@@ -33,8 +33,8 @@ import (
 	//"github.com/docker/docker/client"
 
 	"github.com/docker/docker/client"
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/db"
+	"rainbond/builder/sources"
+	"rainbond/db"
 )
 
 //ImageBuildItem ImageBuildItem

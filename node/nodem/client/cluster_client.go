@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/goodrain/rainbond/cmd"
+	"rainbond/cmd"
 
 	"k8s.io/apimachinery/pkg/api/errors"
 
@@ -31,8 +31,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/coreos/etcd/clientv3"
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/core/config"
+	"rainbond/cmd/node/option"
+	"rainbond/node/core/config"
 )
 
 //ClusterClient ClusterClient

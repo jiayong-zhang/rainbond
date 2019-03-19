@@ -21,7 +21,7 @@ package sources
 import (
 	"testing"
 
-	"github.com/goodrain/rainbond/event"
+	"rainbond/event"
 )
 
 func init() {

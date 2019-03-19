@@ -23,8 +23,8 @@ import (
 	"strings"
 
 	"github.com/apcera/termtables"
-	"github.com/goodrain/rainbond/grctl/clients"
-	"github.com/goodrain/rainbond/node/api/model"
+	"rainbond/grctl/clients"
+	"rainbond/node/api/model"
 	"github.com/urfave/cli"
 )
 

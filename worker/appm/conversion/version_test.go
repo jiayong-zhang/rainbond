@@ -21,7 +21,7 @@ package conversion
 import (
 	"testing"
 
-	v1 "github.com/goodrain/rainbond/worker/appm/types/v1"
+	v1 "rainbond/worker/appm/types/v1"
 )
 
 func TestTenantServiceVersion(t *testing.T) {

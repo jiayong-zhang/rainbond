@@ -23,11 +23,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/goodrain/rainbond/cmd/gateway/option"
+	"rainbond/cmd/gateway/option"
 )
 
 //NodeManager node manager

@@ -20,8 +20,8 @@ package l4
 
 import (
 	"fmt"
-	"github.com/goodrain/rainbond/gateway/annotations/parser"
-	"github.com/goodrain/rainbond/gateway/annotations/resolver"
+	"rainbond/gateway/annotations/parser"
+	"rainbond/gateway/annotations/resolver"
 	extensions "k8s.io/api/extensions/v1beta1"
 )
 

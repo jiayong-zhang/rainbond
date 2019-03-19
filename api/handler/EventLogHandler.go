@@ -19,7 +19,7 @@
 package handler
 
 import (
-	api_model "github.com/goodrain/rainbond/api/model"
+	api_model "rainbond/api/model"
 )
 
 //EventHandler event handler interface

@@ -28,8 +28,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/version"
 
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/statsd/exporter"
+	"rainbond/cmd/node/option"
+	"rainbond/node/statsd/exporter"
 )
 
 //Exporter receive statsd metric and export prometheus metric

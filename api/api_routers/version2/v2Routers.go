@@ -20,8 +20,8 @@ package version2
 
 import (
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/api/controller"
-	"github.com/goodrain/rainbond/api/middleware"
+	"rainbond/api/controller"
+	"rainbond/api/middleware"
 )
 
 //V2 v2

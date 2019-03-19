@@ -26,18 +26,12 @@ import (
 	"io"
 	"io/ioutil"
 	"os"
-
-	"github.com/goodrain/rainbond/util"
-
-	api_model "github.com/goodrain/rainbond/api/model"
-
+	"rainbond/util"
+	api_model "rainbond/api/model"
 	"github.com/Sirupsen/logrus"
-
 	"github.com/coreos/etcd/client"
-
 	"os/exec"
-
-	eventdb "github.com/goodrain/rainbond/eventlog/db"
+	eventdb "rainbond/eventlog/db"
 )
 
 //LogAction  log action struct

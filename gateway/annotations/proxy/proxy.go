@@ -19,11 +19,11 @@ package proxy
 import (
 	"fmt"
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/gateway/controller/config"
+	"rainbond/gateway/controller/config"
 	extensions "k8s.io/api/extensions/v1beta1"
 
-	"github.com/goodrain/rainbond/gateway/annotations/parser"
-	"github.com/goodrain/rainbond/gateway/annotations/resolver"
+	"rainbond/gateway/annotations/parser"
+	"rainbond/gateway/annotations/resolver"
 )
 
 // Config returns the proxy timeout to use in the upstream server/s

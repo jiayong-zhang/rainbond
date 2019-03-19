@@ -20,7 +20,7 @@ package store
 
 import (
 	"fmt"
-	"github.com/goodrain/rainbond/gateway/v1"
+	"rainbond/gateway/v1"
 	"k8s.io/client-go/tools/cache"
 )
 

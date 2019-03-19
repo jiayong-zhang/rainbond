@@ -21,19 +21,17 @@ package db
 import (
 	"encoding/json"
 	"time"
-
-	"github.com/goodrain/rainbond/cmd/api/option"
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/db/config"
-	"github.com/goodrain/rainbond/event"
-	"github.com/goodrain/rainbond/mq/api/grpc/pb"
-	"github.com/goodrain/rainbond/mq/client"
-	"github.com/goodrain/rainbond/worker/discover/model"
-
+	"rainbond/cmd/api/option"
+	"rainbond/db"
+	"rainbond/db/config"
+	"rainbond/event"
+	"rainbond/mq/api/grpc/pb"
+	"rainbond/mq/client"
+	"rainbond/worker/discover/model"
 	"github.com/Sirupsen/logrus"
 	tsdbClient "github.com/bluebreezecf/opentsdb-goclient/client"
 	tsdbConfig "github.com/bluebreezecf/opentsdb-goclient/config"
-	dbModel "github.com/goodrain/rainbond/db/model"
+	dbModel "rainbond/db/model"
 	"github.com/jinzhu/gorm"
 )
 

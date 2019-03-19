@@ -19,8 +19,8 @@
 package core
 
 import (
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/core/store"
+	"rainbond/cmd/node/option"
+	"rainbond/node/core/store"
 	"sync"
 
 	"github.com/Sirupsen/logrus"

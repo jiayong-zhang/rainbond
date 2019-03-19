@@ -23,8 +23,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/goodrain/rainbond/cmd"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/cmd"
+	httputil "rainbond/util/http"
 )
 
 //ParseClientCommnad parse client command

@@ -25,10 +25,10 @@ import (
 	"github.com/coreos/etcd/mvcc/mvccpb"
 	"github.com/pquerna/ffjson/ffjson"
 
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/api/model"
-	"github.com/goodrain/rainbond/node/core/store"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/cmd/node/option"
+	"rainbond/node/api/model"
+	"rainbond/node/core/store"
+	"rainbond/util"
 
 	"github.com/Sirupsen/logrus"
 	client "github.com/coreos/etcd/clientv3"

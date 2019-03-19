@@ -23,10 +23,10 @@ import (
 	"github.com/Sirupsen/logrus"
 	"net/http"
 
-	"github.com/goodrain/rainbond/api/handler"
-	"github.com/goodrain/rainbond/api/middleware"
-	"github.com/goodrain/rainbond/api/model"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/api/handler"
+	"rainbond/api/middleware"
+	"rainbond/api/model"
+	httputil "rainbond/util/http"
 )
 
 // ThirdPartyServiceController implements ThirdPartyServicer

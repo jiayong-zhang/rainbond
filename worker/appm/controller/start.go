@@ -27,7 +27,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/goodrain/rainbond/worker/appm/types/v1"
+	"rainbond/worker/appm/types/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

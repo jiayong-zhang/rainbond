@@ -21,8 +21,7 @@ package cloud
 import (
 	"os"
 	"testing"
-
-	"github.com/goodrain/rainbond/db/model"
+	"rainbond/db/model"
 )
 
 func TestChargeSverify(t *testing.T) {

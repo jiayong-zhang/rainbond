@@ -21,11 +21,11 @@ package api
 import (
 	"net/http"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/monitor/api/controller"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/monitor/api/controller"
+	httputil "rainbond/util/http"
 )
 
 //Server api server

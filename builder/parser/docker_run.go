@@ -23,11 +23,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/builder/sources"
+	"rainbond/db/model"
+	"rainbond/event"
 
 	"github.com/docker/distribution/reference"
 	//"github.com/docker/docker/api/types"

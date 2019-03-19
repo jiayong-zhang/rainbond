@@ -1,9 +1,9 @@
 package model
 
 import (
-	"github.com/goodrain/rainbond/gateway/annotations/proxy"
-	"github.com/goodrain/rainbond/gateway/annotations/rewrite"
-	"github.com/goodrain/rainbond/gateway/v1"
+	"rainbond/gateway/annotations/proxy"
+	"rainbond/gateway/annotations/rewrite"
+	"rainbond/gateway/v1"
 )
 
 // Server sets configuration for a virtual server...

@@ -21,14 +21,12 @@ package share
 import (
 	"context"
 	"fmt"
-
-	"github.com/goodrain/rainbond/mq/client"
-
+	"rainbond/mq/client"
 	"github.com/Sirupsen/logrus"
 	"github.com/coreos/etcd/clientv3"
-	"github.com/goodrain/rainbond/api/util"
-	"github.com/goodrain/rainbond/builder/exector"
-	"github.com/goodrain/rainbond/db"
+	"rainbond/api/util"
+	"rainbond/builder/exector"
+	"rainbond/db"
 	"github.com/pquerna/ffjson/ffjson"
 	"github.com/twinj/uuid"
 )

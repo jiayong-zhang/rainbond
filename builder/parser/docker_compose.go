@@ -24,10 +24,10 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/goodrain/rainbond/builder/parser/compose"
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/builder/parser/compose"
+	"rainbond/builder/sources"
+	"rainbond/db/model"
+	"rainbond/event"
 
 	"github.com/docker/docker/client"
 )

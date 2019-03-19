@@ -24,10 +24,10 @@ import (
 
 	"github.com/pquerna/ffjson/ffjson"
 
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/event"
+	dbmodel "rainbond/db/model"
+	"rainbond/event"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 )
 
 func TestDownloadFromLocal(t *testing.T) {

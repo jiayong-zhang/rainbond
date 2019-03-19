@@ -19,8 +19,8 @@
 package mysql
 
 import (
-	"github.com/goodrain/rainbond/db/dao"
-	mysqldao "github.com/goodrain/rainbond/db/mysql/dao"
+	"rainbond/db/dao"
+	mysqldao "rainbond/db/mysql/dao"
 	"github.com/jinzhu/gorm"
 )
 

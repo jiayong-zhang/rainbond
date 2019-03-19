@@ -22,11 +22,11 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/api/util"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	coreutil "github.com/goodrain/rainbond/util"
-	utilhttp "github.com/goodrain/rainbond/util/http"
+	"rainbond/api/model"
+	"rainbond/api/util"
+	dbmodel "rainbond/db/model"
+	coreutil "rainbond/util"
+	utilhttp "rainbond/util/http"
 )
 
 type services struct {

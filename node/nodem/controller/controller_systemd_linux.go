@@ -28,8 +28,8 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/nodem/service"
+	"rainbond/cmd/node/option"
+	"rainbond/node/nodem/service"
 )
 
 type ControllerSystemd struct {

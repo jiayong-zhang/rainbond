@@ -19,8 +19,8 @@
 package handler
 
 import (
-	apimodel "github.com/goodrain/rainbond/api/model"
-	dbmodel "github.com/goodrain/rainbond/db/model"
+	apimodel "rainbond/api/model"
+	dbmodel "rainbond/db/model"
 	"github.com/jinzhu/gorm"
 )
 

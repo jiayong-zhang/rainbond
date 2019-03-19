@@ -29,8 +29,8 @@ import (
 	"github.com/pquerna/ffjson/ffjson"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/goodrain/rainbond/eventlog/conf"
-	"github.com/goodrain/rainbond/eventlog/db"
+	"rainbond/eventlog/conf"
+	"rainbond/eventlog/db"
 )
 
 type newMonitorMessageStore struct {

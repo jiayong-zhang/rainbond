@@ -19,12 +19,12 @@
 package handler
 
 import (
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/api/util"
-	"github.com/goodrain/rainbond/builder/exector"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/worker/discover/model"
-	"github.com/goodrain/rainbond/worker/server/pb"
+	api_model "rainbond/api/model"
+	"rainbond/api/util"
+	"rainbond/builder/exector"
+	dbmodel "rainbond/db/model"
+	"rainbond/worker/discover/model"
+	"rainbond/worker/server/pb"
 )
 
 //ServiceHandler service handler

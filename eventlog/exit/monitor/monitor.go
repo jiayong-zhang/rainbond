@@ -19,8 +19,8 @@
 package monitor
 
 import (
-	"github.com/goodrain/rainbond/eventlog/cluster"
-	"github.com/goodrain/rainbond/eventlog/store"
+	"rainbond/eventlog/cluster"
+	"rainbond/eventlog/store"
 	"time"
 
 	"github.com/Sirupsen/logrus"

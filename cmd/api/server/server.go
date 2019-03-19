@@ -24,14 +24,14 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/goodrain/rainbond/api/controller"
-	"github.com/goodrain/rainbond/api/db"
-	"github.com/goodrain/rainbond/api/discover"
-	"github.com/goodrain/rainbond/api/handler"
-	"github.com/goodrain/rainbond/api/server"
-	"github.com/goodrain/rainbond/cmd/api/option"
-	"github.com/goodrain/rainbond/event"
-	"github.com/goodrain/rainbond/worker/client"
+	"rainbond/api/controller"
+	"rainbond/api/db"
+	"rainbond/api/discover"
+	"rainbond/api/handler"
+	"rainbond/api/server"
+	"rainbond/cmd/api/option"
+	"rainbond/event"
+	"rainbond/worker/client"
 
 	"github.com/Sirupsen/logrus"
 )

@@ -19,12 +19,11 @@
 package daemon
 
 import (
-	"github.com/goodrain/rainbond/api/util"
+	"rainbond/api/util"
 	"net/http"
 	"os"
 	"os/exec"
 	"time"
-
 	"github.com/Sirupsen/logrus"
 )
 

@@ -29,7 +29,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/goodrain/rainbond/node/nodem/client"
+	"rainbond/node/nodem/client"
 )
 
 //GetSystemInfo GetSystemInfo

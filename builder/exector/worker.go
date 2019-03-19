@@ -38,7 +38,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 	"os"
 	"os/exec"
 	"time"

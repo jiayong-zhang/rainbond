@@ -31,11 +31,11 @@ import (
 	"github.com/Sirupsen/logrus"
 	simplejson "github.com/bitly/go-simplejson"
 	"github.com/docker/docker/client"
-	"github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/event"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/api/model"
+	"rainbond/builder/sources"
+	"rainbond/db"
+	"rainbond/event"
+	"rainbond/util"
 	"github.com/tidwall/gjson"
 )
 

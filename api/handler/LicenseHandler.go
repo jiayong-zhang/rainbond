@@ -18,7 +18,7 @@
 
 package handler
 
-import api_model "github.com/goodrain/rainbond/api/model"
+import api_model "rainbond/api/model"
 
 //LicenseHandler LicenseAction
 type LicenseHandler interface {

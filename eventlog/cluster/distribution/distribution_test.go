@@ -19,9 +19,9 @@
 package distribution
 
 import (
-	"github.com/goodrain/rainbond/eventlog/cluster/discover"
-	"github.com/goodrain/rainbond/eventlog/conf"
-	"github.com/goodrain/rainbond/eventlog/db"
+	"rainbond/eventlog/cluster/discover"
+	"rainbond/eventlog/conf"
+	"rainbond/eventlog/db"
 	"testing"
 	"time"
 

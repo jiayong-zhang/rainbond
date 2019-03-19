@@ -23,11 +23,11 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/goodrain/rainbond/mq/api/mq"
+	"rainbond/mq/api/mq"
 
 	"github.com/Sirupsen/logrus"
 
-	discovermodel "github.com/goodrain/rainbond/worker/discover/model"
+	discovermodel "rainbond/worker/discover/model"
 
 	restful "github.com/emicklei/go-restful"
 )

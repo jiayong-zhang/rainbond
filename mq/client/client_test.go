@@ -24,8 +24,8 @@ import (
 
 	"github.com/pquerna/ffjson/ffjson"
 
-	"github.com/goodrain/rainbond/builder/exector"
-	"github.com/goodrain/rainbond/mq/api/grpc/pb"
+	"rainbond/builder/exector"
+	"rainbond/mq/api/grpc/pb"
 	"github.com/twinj/uuid"
 
 	context "golang.org/x/net/context"

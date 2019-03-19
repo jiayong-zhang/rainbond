@@ -21,9 +21,9 @@ package db
 import (
 	"testing"
 
-	dbconfig "github.com/goodrain/rainbond/db/config"
-	"github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/util"
+	dbconfig "rainbond/db/config"
+	"rainbond/db/model"
+	"rainbond/util"
 )
 
 func TestIPPortImpl_UpdateModel(t *testing.T) {

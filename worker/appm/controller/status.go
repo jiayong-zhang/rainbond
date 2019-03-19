@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/event"
-	"github.com/goodrain/rainbond/worker/appm/store"
-	v1 "github.com/goodrain/rainbond/worker/appm/types/v1"
+	"rainbond/event"
+	"rainbond/worker/appm/store"
+	v1 "rainbond/worker/appm/types/v1"
 	corev1 "k8s.io/api/core/v1"
 )
 

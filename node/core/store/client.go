@@ -25,8 +25,8 @@ import (
 
 	client "github.com/coreos/etcd/clientv3"
 
-	conf "github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/utils"
+	conf "rainbond/cmd/node/option"
+	"rainbond/node/utils"
 
 	"context"
 

@@ -24,12 +24,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/goodrain/rainbond/cmd/mq/option"
-	"github.com/goodrain/rainbond/mq/client"
+	"rainbond/cmd/mq/option"
+	"rainbond/mq/client"
 
 	"golang.org/x/net/context"
 
-	etcdutil "github.com/goodrain/rainbond/util/etcd"
+	etcdutil "rainbond/util/etcd"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/coreos/etcd/clientv3"

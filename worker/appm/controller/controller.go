@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/goodrain/rainbond/worker/appm/store"
-	"github.com/goodrain/rainbond/worker/appm/types/v1"
+	"rainbond/worker/appm/store"
+	"rainbond/worker/appm/types/v1"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
 	"k8s.io/client-go/kubernetes"
 )

@@ -26,8 +26,8 @@ import (
 	"github.com/Sirupsen/logrus"
 	"github.com/coreos/etcd/clientv3"
 	"github.com/docker/docker/client"
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/builder/sources"
+	"rainbond/event"
 	"github.com/pquerna/ffjson/ffjson"
 	"github.com/tidwall/gjson"
 )

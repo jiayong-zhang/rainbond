@@ -21,10 +21,10 @@ package controller
 import (
 	"net/http"
 
-	"github.com/goodrain/rainbond/node/api/model"
+	"rainbond/node/api/model"
 
 	"github.com/Sirupsen/logrus"
-	httputil "github.com/goodrain/rainbond/util/http"
+	httputil "rainbond/util/http"
 )
 
 //GetDatacenterConfig 获取数据中心配置

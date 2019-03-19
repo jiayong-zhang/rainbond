@@ -20,17 +20,17 @@ package controller
 
 import (
 	"fmt"
-	"github.com/goodrain/rainbond/api/middleware"
+	"rainbond/api/middleware"
 	"net/http"
 	"net/url"
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/api/handler"
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/cmd/api/option"
-	"github.com/goodrain/rainbond/mq/client"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/api/handler"
+	api_model "rainbond/api/model"
+	"rainbond/cmd/api/option"
+	"rainbond/mq/client"
+	httputil "rainbond/util/http"
 )
 
 // GatewayStruct -

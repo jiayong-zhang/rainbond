@@ -23,15 +23,15 @@ import (
 	"strings"
 	"time"
 
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/api/util"
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/event"
-	"github.com/goodrain/rainbond/mq/client"
-	core_util "github.com/goodrain/rainbond/util"
+	api_model "rainbond/api/model"
+	"rainbond/api/util"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
+	"rainbond/event"
+	"rainbond/mq/client"
+	core_util "rainbond/util"
 
-	builder_model "github.com/goodrain/rainbond/builder/model"
+	builder_model "rainbond/builder/model"
 
 	"github.com/Sirupsen/logrus"
 )

@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/grctl/clients"
+	"rainbond/grctl/clients"
 	"github.com/urfave/cli"
 )
 

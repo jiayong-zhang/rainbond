@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/goodrain/rainbond/builder/parser/code"
-	"github.com/goodrain/rainbond/builder/parser/discovery"
+	"rainbond/builder/parser/code"
+	"rainbond/builder/parser/discovery"
 )
 
 //Port 端口

@@ -22,13 +22,13 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/goodrain/rainbond/worker/master"
+	"rainbond/worker/master"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/cmd/worker/option"
-	httputil "github.com/goodrain/rainbond/util/http"
-	"github.com/goodrain/rainbond/worker/discover"
-	"github.com/goodrain/rainbond/worker/monitor/collector"
+	"rainbond/cmd/worker/option"
+	httputil "rainbond/util/http"
+	"rainbond/worker/discover"
+	"rainbond/worker/monitor/collector"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/prometheus/common/log"

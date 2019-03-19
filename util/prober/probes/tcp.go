@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/util/prober/types/v1"
+	"rainbond/util/prober/types/v1"
 	"net"
 	"time"
 )

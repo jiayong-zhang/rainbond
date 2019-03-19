@@ -1,12 +1,12 @@
 package openresty
 
 import (
-	"github.com/goodrain/rainbond/gateway/annotations/rewrite"
+	"rainbond/gateway/annotations/rewrite"
 	"fmt"
-	"github.com/goodrain/rainbond/gateway/annotations/proxy"
+	"rainbond/gateway/annotations/proxy"
 
-	"github.com/goodrain/rainbond/gateway/controller/openresty/model"
-	"github.com/goodrain/rainbond/gateway/v1"
+	"rainbond/gateway/controller/openresty/model"
+	"rainbond/gateway/v1"
 )
 
 func langGoodrainMe(ip string) *model.Server {

@@ -20,7 +20,7 @@ package cmd
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/cmd/init-probe/healthy"
+	"rainbond/cmd/init-probe/healthy"
 	"github.com/urfave/cli"
 )
 

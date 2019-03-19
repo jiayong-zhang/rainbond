@@ -25,8 +25,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/goodrain/rainbond/cmd/node/option"
-	utilwindows "github.com/goodrain/rainbond/util/windows"
+	"rainbond/cmd/node/option"
+	utilwindows "rainbond/util/windows"
 	"github.com/spf13/pflag"
 	"golang.org/x/sys/windows"
 )

@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	cdb "github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/eventlog/conf"
-	"github.com/goodrain/rainbond/eventlog/db"
-	"github.com/goodrain/rainbond/eventlog/util"
+	cdb "rainbond/db"
+	"rainbond/db/model"
+	"rainbond/eventlog/conf"
+	"rainbond/eventlog/db"
+	"rainbond/eventlog/util"
 	"golang.org/x/net/context"
 
 	"fmt"

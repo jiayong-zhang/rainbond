@@ -25,18 +25,18 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/worker/master/volumes/provider"
+	"rainbond/worker/master/volumes/provider"
 
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/worker/master/volumes/statistical"
+	"rainbond/db"
+	"rainbond/db/model"
+	"rainbond/worker/master/volumes/statistical"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/goodrain/rainbond/worker/appm/store"
+	"rainbond/worker/appm/store"
 
-	"github.com/goodrain/rainbond/cmd/worker/option"
-	"github.com/goodrain/rainbond/util/leader"
-	"github.com/goodrain/rainbond/worker/master/volumes/provider/lib/controller"
+	"rainbond/cmd/worker/option"
+	"rainbond/util/leader"
+	"rainbond/worker/master/volumes/provider/lib/controller"
 )
 
 //Controller app runtime master controller

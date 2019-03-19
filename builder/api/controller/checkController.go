@@ -21,16 +21,16 @@ package controller
 import (
 	"encoding/json"
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/builder/model"
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/builder/model"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
+	httputil "rainbond/util/http"
 	"net/http"
 	"strings"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/bitly/go-simplejson"
-	"github.com/goodrain/rainbond/builder/discover"
+	"rainbond/builder/discover"
 	"io/ioutil"
 )
 

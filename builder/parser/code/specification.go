@@ -23,7 +23,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 )
 
 //Specification 规范

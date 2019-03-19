@@ -23,7 +23,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/sets"
 
-	"github.com/goodrain/rainbond/gateway/metric/collectors"
+	"rainbond/gateway/metric/collectors"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

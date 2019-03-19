@@ -18,8 +18,7 @@ package resolver
 
 import (
 	apiv1 "k8s.io/api/core/v1"
-
-	"github.com/goodrain/rainbond/gateway/defaults"
+	"rainbond/gateway/defaults"
 )
 
 // Mock implements the Resolver interface

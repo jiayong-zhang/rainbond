@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/goodrain/rainbond/api/discover"
-	"github.com/goodrain/rainbond/api/proxy"
+	"rainbond/api/discover"
+	"rainbond/api/proxy"
 
 	"github.com/Sirupsen/logrus"
 

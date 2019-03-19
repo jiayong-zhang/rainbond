@@ -25,23 +25,23 @@ import (
 	"os"
 	"path"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
 	"github.com/docker/docker/client"
 
 	"github.com/Sirupsen/logrus"
 
 	"github.com/docker/docker/api/types"
-	"github.com/goodrain/rainbond/builder"
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/builder"
+	"rainbond/builder/sources"
+	"rainbond/event"
 )
 
 var netcoreBuildDockerfile = "/src/build-app/netcore/Dockerfile.build"
 var netcoreRuntimeDockerfile = "/src/build-app/netcore/Dockerfile.runtime"
 
-// var netcoreBuildDockerfile = "/Users/qingguo/gopath/src/github.com/goodrain/rainbond/hack/contrib/docker/chaos/build-app/netcore/Dockerfile.build"
-// var netcoreRuntimeDockerfile = "/Users/qingguo/gopath/src/github.com/goodrain/rainbond/hack/contrib/docker/chaos/build-app/netcore/Dockerfile.runtime"
+// var netcoreBuildDockerfile = "/Users/qingguo/gopath/src/rainbond/hack/contrib/docker/chaos/build-app/netcore/Dockerfile.build"
+// var netcoreRuntimeDockerfile = "/Users/qingguo/gopath/src/rainbond/hack/contrib/docker/chaos/build-app/netcore/Dockerfile.runtime"
 var buildDockerfile []byte
 var runDockerfile []byte
 

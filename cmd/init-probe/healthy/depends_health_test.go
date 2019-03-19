@@ -24,7 +24,7 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	envoyv2 "github.com/goodrain/rainbond/node/core/envoy/v2"
+	envoyv2 "rainbond/node/core/envoy/v2"
 
 	"github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
 

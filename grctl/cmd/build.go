@@ -28,10 +28,10 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/docker/docker/client"
-	"github.com/goodrain/rainbond/builder"
-	"github.com/goodrain/rainbond/builder/parser/code"
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/builder"
+	"rainbond/builder/parser/code"
+	"rainbond/builder/sources"
+	"rainbond/util"
 	"github.com/urfave/cli"
 )
 

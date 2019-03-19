@@ -19,8 +19,8 @@
 package entry
 
 import (
-	"github.com/goodrain/rainbond/eventlog/conf"
-	"github.com/goodrain/rainbond/eventlog/store"
+	"rainbond/eventlog/conf"
+	"rainbond/eventlog/store"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/thejerf/suture"

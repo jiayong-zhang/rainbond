@@ -22,8 +22,8 @@ import (
 	"os"
 	"sort"
 
-	version "github.com/goodrain/rainbond/cmd"
-	"github.com/goodrain/rainbond/grctl/cmd"
+	version "rainbond/cmd"
+	"rainbond/grctl/cmd"
 	"github.com/urfave/cli"
 )
 

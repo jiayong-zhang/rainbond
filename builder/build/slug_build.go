@@ -31,10 +31,10 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/fsnotify/fsnotify"
-	"github.com/goodrain/rainbond/builder"
-	"github.com/goodrain/rainbond/builder/sources"
-	"github.com/goodrain/rainbond/event"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/builder"
+	"rainbond/builder/sources"
+	"rainbond/event"
+	"rainbond/util"
 	"github.com/pquerna/ffjson/ffjson"
 )
 

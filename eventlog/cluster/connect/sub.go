@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	dis "github.com/goodrain/rainbond/eventlog/cluster/discover"
-	"github.com/goodrain/rainbond/eventlog/cluster/distribution"
-	"github.com/goodrain/rainbond/eventlog/conf"
-	"github.com/goodrain/rainbond/eventlog/store"
+	dis "rainbond/eventlog/cluster/discover"
+	"rainbond/eventlog/cluster/distribution"
+	"rainbond/eventlog/conf"
+	"rainbond/eventlog/store"
 
 	"golang.org/x/net/context"
 
@@ -34,7 +34,7 @@ import (
 
 	"sync"
 
-	"github.com/goodrain/rainbond/eventlog/db"
+	"rainbond/eventlog/db"
 
 	"strconv"
 

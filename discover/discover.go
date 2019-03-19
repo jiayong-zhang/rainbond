@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/goodrain/rainbond/util/watch"
+	"rainbond/util/watch"
 
-	"github.com/goodrain/rainbond/discover/config"
+	"rainbond/discover/config"
 
 	"golang.org/x/net/context"
 

@@ -19,7 +19,7 @@
 package webhook
 
 import (
-	"github.com/goodrain/rainbond/eventlog/conf"
+	"rainbond/eventlog/conf"
 	"net/http"
 
 	"sync"

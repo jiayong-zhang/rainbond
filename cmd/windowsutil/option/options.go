@@ -23,10 +23,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/util/windows"
+	"rainbond/util/windows"
 	"github.com/spf13/pflag"
 )
 

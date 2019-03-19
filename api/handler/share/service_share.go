@@ -21,21 +21,15 @@ package share
 import (
 	"context"
 	"fmt"
-
-	"github.com/goodrain/rainbond/mq/client"
-
-	"github.com/goodrain/rainbond/builder/exector"
-
+	"rainbond/mq/client"
+	"rainbond/builder/exector"
 	"github.com/twinj/uuid"
-
 	"github.com/pquerna/ffjson/ffjson"
-
-	"github.com/goodrain/rainbond/db"
-
+	"rainbond/db"
 	"github.com/Sirupsen/logrus"
 	"github.com/coreos/etcd/clientv3"
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/api/util"
+	 api_model "rainbond/api/model"
+	"rainbond/api/util"
 )
 
 //ServiceShareHandle service share

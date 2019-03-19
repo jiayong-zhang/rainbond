@@ -19,7 +19,7 @@
 package worker
 
 import (
-	"github.com/goodrain/rainbond/node/api/model"
+	"rainbond/node/api/model"
 	"sync"
 
 	"golang.org/x/net/context"

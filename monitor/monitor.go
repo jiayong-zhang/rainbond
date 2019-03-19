@@ -24,13 +24,13 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	v3 "github.com/coreos/etcd/clientv3"
-	"github.com/goodrain/rainbond/cmd/monitor/option"
-	discoverv1 "github.com/goodrain/rainbond/discover"
-	discoverv2 "github.com/goodrain/rainbond/discover.v2"
-	"github.com/goodrain/rainbond/discover/config"
-	"github.com/goodrain/rainbond/monitor/callback"
-	"github.com/goodrain/rainbond/monitor/prometheus"
-	"github.com/goodrain/rainbond/util/watch"
+	"rainbond/cmd/monitor/option"
+	discoverv1 "rainbond/discover"
+	discoverv2 "rainbond/discover.v2"
+	"rainbond/discover/config"
+	"rainbond/monitor/callback"
+	"rainbond/monitor/prometheus"
+	"rainbond/util/watch"
 	"github.com/tidwall/gjson"
 )
 

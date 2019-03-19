@@ -21,9 +21,9 @@ package controller
 import (
 	"context"
 	"github.com/coreos/etcd/clientv3"
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/nodem/client"
-	"github.com/goodrain/rainbond/node/nodem/service"
+	"rainbond/cmd/node/option"
+	"rainbond/node/nodem/client"
+	"rainbond/node/nodem/service"
 	"strings"
 	"testing"
 	"time"

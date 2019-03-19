@@ -23,19 +23,19 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/goodrain/rainbond/discover"
-	"github.com/goodrain/rainbond/node/kubecache"
-	"github.com/goodrain/rainbond/node/masterserver"
-	"github.com/goodrain/rainbond/node/statsd"
+	"rainbond/discover"
+	"rainbond/node/kubecache"
+	"rainbond/node/masterserver"
+	"rainbond/node/statsd"
 
-	"github.com/goodrain/rainbond/node/api/controller"
-	"github.com/goodrain/rainbond/node/api/router"
+	"rainbond/node/api/controller"
+	"rainbond/node/api/router"
 
 	"context"
 	"strings"
 
-	"github.com/goodrain/rainbond/cmd/node/option"
-	nodeclient "github.com/goodrain/rainbond/node/nodem/client"
+	"rainbond/cmd/node/option"
+	nodeclient "rainbond/node/nodem/client"
 
 	_ "net/http/pprof"
 

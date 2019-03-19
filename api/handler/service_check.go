@@ -27,11 +27,11 @@ import (
 	"github.com/pquerna/ffjson/ffjson"
 
 	"github.com/Sirupsen/logrus"
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/api/util"
-	"github.com/goodrain/rainbond/builder/exector"
-	client "github.com/goodrain/rainbond/mq/client"
-	tutil "github.com/goodrain/rainbond/util"
+	api_model "rainbond/api/model"
+	"rainbond/api/util"
+	"rainbond/builder/exector"
+	client "rainbond/mq/client"
+	tutil "rainbond/util"
 	"github.com/twinj/uuid"
 )
 

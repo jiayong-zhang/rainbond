@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/mq/api/grpc/pb"
+	"rainbond/mq/api/grpc/pb"
 	"github.com/pquerna/ffjson/ffjson"
 	"github.com/tidwall/gjson"
 )

@@ -26,7 +26,7 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 
 	"github.com/Sirupsen/logrus"
-	v1 "github.com/goodrain/rainbond/worker/appm/types/v1"
+	v1 "rainbond/worker/appm/types/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

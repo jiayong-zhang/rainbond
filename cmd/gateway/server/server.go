@@ -27,21 +27,21 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/goodrain/rainbond/gateway/cluster"
+	"rainbond/gateway/cluster"
 
 	"github.com/go-chi/chi"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
-	"github.com/goodrain/rainbond/discover"
+	"rainbond/discover"
 
-	"github.com/goodrain/rainbond/gateway/metric"
+	"rainbond/gateway/metric"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/cmd/gateway/option"
-	"github.com/goodrain/rainbond/gateway/controller"
+	"rainbond/cmd/gateway/option"
+	"rainbond/gateway/controller"
 	"k8s.io/apiserver/pkg/server/healthz"
 )
 

@@ -24,7 +24,7 @@ import (
 	"net/http"
 
 	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/goodrain/rainbond/node/utils"
+	"rainbond/node/utils"
 	"github.com/pquerna/ffjson/ffjson"
 	"k8s.io/api/core/v1"
 

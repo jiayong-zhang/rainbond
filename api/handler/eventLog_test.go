@@ -20,9 +20,9 @@ package handler
 
 import (
 	"fmt"
-	api_db "github.com/goodrain/rainbond/api/db"
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/cmd/api/option"
+	api_db "rainbond/api/db"
+	api_model "rainbond/api/model"
+	"rainbond/cmd/api/option"
 	"os/exec"
 	"testing"
 	"time"

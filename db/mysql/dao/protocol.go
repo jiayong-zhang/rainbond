@@ -23,7 +23,7 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/goodrain/rainbond/db/model"
+	"rainbond/db/model"
 )
 
 //RegionProcotolsDaoImpl RegionProcotolsDaoImpl

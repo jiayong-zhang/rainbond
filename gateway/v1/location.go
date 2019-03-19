@@ -19,8 +19,8 @@
 package v1
 
 import (
-	"github.com/goodrain/rainbond/gateway/annotations/proxy"
-	"github.com/goodrain/rainbond/gateway/annotations/rewrite"
+	"rainbond/gateway/annotations/proxy"
+	"rainbond/gateway/annotations/rewrite"
 )
 
 // ConditionType condition type

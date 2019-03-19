@@ -19,9 +19,9 @@
 package handler
 
 import (
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/api/util"
-	dbmodel "github.com/goodrain/rainbond/db/model"
+	api_model "rainbond/api/model"
+	"rainbond/api/util"
+	dbmodel "rainbond/db/model"
 )
 
 //PluginHandler plugin handler

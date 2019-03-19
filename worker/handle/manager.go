@@ -26,15 +26,15 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/eapache/channels"
-	"github.com/goodrain/rainbond/cmd/worker/option"
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/event"
-	"github.com/goodrain/rainbond/worker/appm/controller"
-	"github.com/goodrain/rainbond/worker/appm/conversion"
-	"github.com/goodrain/rainbond/worker/appm/store"
-	"github.com/goodrain/rainbond/worker/appm/types/v1"
-	"github.com/goodrain/rainbond/worker/discover/model"
+	"rainbond/cmd/worker/option"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
+	"rainbond/event"
+	"rainbond/worker/appm/controller"
+	"rainbond/worker/appm/conversion"
+	"rainbond/worker/appm/store"
+	"rainbond/worker/appm/types/v1"
+	"rainbond/worker/discover/model"
 )
 
 //Manager manager

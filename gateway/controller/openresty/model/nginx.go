@@ -4,7 +4,7 @@ import (
 	"os/user"
 	"runtime"
 
-	"github.com/goodrain/rainbond/cmd/gateway/option"
+	"rainbond/cmd/gateway/option"
 )
 
 //Nginx nginx config model

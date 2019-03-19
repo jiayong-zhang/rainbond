@@ -25,11 +25,11 @@ import (
 	"syscall"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/cmd/monitor/option"
-	"github.com/goodrain/rainbond/monitor"
-	"github.com/goodrain/rainbond/monitor/api"
-	"github.com/goodrain/rainbond/monitor/api/controller"
-	"github.com/goodrain/rainbond/monitor/prometheus"
+	"rainbond/cmd/monitor/option"
+	"rainbond/monitor"
+	"rainbond/monitor/api"
+	"rainbond/monitor/api/controller"
+	"rainbond/monitor/prometheus"
 	"github.com/spf13/pflag"
 )
 

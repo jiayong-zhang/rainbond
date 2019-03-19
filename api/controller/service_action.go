@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/goodrain/rainbond/api/middleware"
-	api_model "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/event"
-	"github.com/goodrain/rainbond/worker/discover/model"
+	"rainbond/api/middleware"
+	api_model "rainbond/api/model"
+	"rainbond/event"
+	"rainbond/worker/discover/model"
 	"github.com/thedevsaddam/govalidator"
 
 	"time"
@@ -37,11 +37,11 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/api/handler"
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	tutil "github.com/goodrain/rainbond/util"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/api/handler"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
+	tutil "rainbond/util"
+	httputil "rainbond/util/http"
 	"github.com/jinzhu/gorm"
 	"github.com/pquerna/ffjson/ffjson"
 )

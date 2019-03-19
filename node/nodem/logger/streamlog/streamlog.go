@@ -20,7 +20,7 @@ import (
 	"sync"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/node/nodem/logger"
+	"rainbond/node/nodem/logger"
 )
 
 //STREAMLOGNAME 插件名称

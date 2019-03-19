@@ -21,7 +21,7 @@ package service
 import (
 	"time"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
 	yaml "gopkg.in/yaml.v2"
 )

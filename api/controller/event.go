@@ -29,8 +29,8 @@ import (
 	"github.com/Sirupsen/logrus"
 	"github.com/bitly/go-simplejson"
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/db"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/db"
+	httputil "rainbond/util/http"
 )
 
 //Event GetLogs

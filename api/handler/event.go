@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	tutil "github.com/goodrain/rainbond/util"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
+	tutil "rainbond/util"
 )
 
 //TIMELAYOUT timelayout

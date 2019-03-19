@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/coreos/etcd/clientv3"
-	v1 "github.com/goodrain/rainbond/gateway/v1"
+	v1 "rainbond/gateway/v1"
 )
 
 func TestController_GetDelUpdPools(t *testing.T) {

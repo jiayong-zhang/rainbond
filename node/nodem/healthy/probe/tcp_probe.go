@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/goodrain/rainbond/node/nodem/client"
-	"github.com/goodrain/rainbond/node/nodem/service"
+	"rainbond/node/nodem/client"
+	"rainbond/node/nodem/service"
 )
 
 type TcpProbe struct {

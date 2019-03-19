@@ -33,7 +33,7 @@ import (
 	dockerstrslice "github.com/docker/docker/api/types/strslice"
 	"github.com/docker/docker/api/types/versions"
 	"github.com/docker/docker/client"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 	"golang.org/x/net/context"
 )
 

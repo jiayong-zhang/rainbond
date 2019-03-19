@@ -26,7 +26,7 @@ import (
 	"syscall"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/discover/config"
+	"rainbond/discover/config"
 )
 
 //TrimAndSort TrimAndSort

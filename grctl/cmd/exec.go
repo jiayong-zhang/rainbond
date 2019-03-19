@@ -23,7 +23,7 @@ import (
 	"os/exec"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/grctl/clients"
+	"rainbond/grctl/clients"
 	"github.com/urfave/cli"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

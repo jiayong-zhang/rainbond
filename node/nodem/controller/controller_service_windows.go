@@ -26,9 +26,9 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/nodem/service"
-	"github.com/goodrain/rainbond/util/windows"
+	"rainbond/cmd/node/option"
+	"rainbond/node/nodem/service"
+	"rainbond/util/windows"
 )
 
 //NewController At the stage you want to load the configurations of all rainbond components

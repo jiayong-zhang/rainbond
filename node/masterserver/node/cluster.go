@@ -29,20 +29,20 @@ import (
 
 	"k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/goodrain/rainbond/util/watch"
+	"rainbond/util/watch"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/pquerna/ffjson/ffjson"
 
 	"github.com/coreos/etcd/mvcc/mvccpb"
 
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/api/model"
-	"github.com/goodrain/rainbond/node/core/config"
-	"github.com/goodrain/rainbond/node/core/store"
-	"github.com/goodrain/rainbond/node/kubecache"
-	"github.com/goodrain/rainbond/node/nodem/client"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/cmd/node/option"
+	"rainbond/node/api/model"
+	"rainbond/node/core/config"
+	"rainbond/node/core/store"
+	"rainbond/node/kubecache"
+	"rainbond/node/nodem/client"
+	"rainbond/util"
 )
 
 //Cluster  node  controller

@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/goodrain/rainbond/node/nodem/service"
+	"rainbond/node/nodem/service"
 )
 
 func TestHttpProbe_Check(t *testing.T) {

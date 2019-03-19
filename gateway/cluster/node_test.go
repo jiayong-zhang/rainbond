@@ -21,7 +21,7 @@ package cluster
 import (
 	"testing"
 
-	"github.com/goodrain/rainbond/cmd/gateway/option"
+	"rainbond/cmd/gateway/option"
 )
 
 func TestCreateNodeManager(t *testing.T) {

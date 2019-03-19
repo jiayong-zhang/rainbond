@@ -21,15 +21,15 @@ package connect
 import (
 	"errors"
 	"fmt"
-	"github.com/goodrain/rainbond/eventlog/conf"
-	"github.com/goodrain/rainbond/eventlog/db"
-	"github.com/goodrain/rainbond/eventlog/store"
+	"rainbond/eventlog/conf"
+	"rainbond/eventlog/db"
+	"rainbond/eventlog/store"
 
 	"golang.org/x/net/context"
 
 	"sync"
 
-	"github.com/goodrain/rainbond/eventlog/cluster/discover"
+	"rainbond/eventlog/cluster/discover"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/pebbe/zmq4"

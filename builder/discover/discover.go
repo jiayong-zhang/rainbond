@@ -24,10 +24,10 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/builder/exector"
-	"github.com/goodrain/rainbond/cmd/builder/option"
-	"github.com/goodrain/rainbond/mq/api/grpc/pb"
-	"github.com/goodrain/rainbond/mq/client"
+	"rainbond/builder/exector"
+	"rainbond/cmd/builder/option"
+	"rainbond/mq/api/grpc/pb"
+	"rainbond/mq/client"
 	grpc1 "google.golang.org/grpc"
 )
 

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/goodrain/rainbond/node/nodem/client"
+	"rainbond/node/nodem/client"
 
-	"github.com/goodrain/rainbond/node/nodem/service"
+	"rainbond/node/nodem/service"
 )
 
 func TestProbeManager_Start(t *testing.T) {

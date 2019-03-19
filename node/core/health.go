@@ -19,7 +19,7 @@
 package core
 
 import (
-	"github.com/goodrain/rainbond/cmd/node/option"
+	"rainbond/cmd/node/option"
 
 	"bytes"
 	"github.com/Sirupsen/logrus"

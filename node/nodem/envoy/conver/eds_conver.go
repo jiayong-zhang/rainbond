@@ -27,7 +27,7 @@ import (
 	v2 "github.com/envoyproxy/go-control-plane/envoy/api/v2"
 	endpoint "github.com/envoyproxy/go-control-plane/envoy/api/v2/endpoint"
 	"github.com/envoyproxy/go-control-plane/pkg/cache"
-	envoyv2 "github.com/goodrain/rainbond/node/core/envoy/v2"
+	envoyv2 "rainbond/node/core/envoy/v2"
 	corev1 "k8s.io/api/core/v1"
 )
 

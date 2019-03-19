@@ -25,27 +25,18 @@ import (
 	"os"
 	"strings"
 	"time"
-
-	v1 "github.com/goodrain/rainbond/worker/appm/types/v1"
-
+	v1 "rainbond/worker/appm/types/v1"
 	"github.com/coreos/etcd/clientv3"
-
-	"github.com/goodrain/rainbond/event"
-
+	"rainbond/event"
 	"github.com/Sirupsen/logrus"
-
-	"github.com/goodrain/rainbond/worker/client"
-
-	mqclient "github.com/goodrain/rainbond/mq/client"
-
+	"rainbond/worker/client"
+	mqclient "rainbond/mq/client"
 	"github.com/jinzhu/gorm"
-
 	"github.com/pquerna/ffjson/ffjson"
-
-	"github.com/goodrain/rainbond/api/util"
-	"github.com/goodrain/rainbond/db"
-	dbmodel "github.com/goodrain/rainbond/db/model"
-	core_util "github.com/goodrain/rainbond/util"
+	"rainbond/api/util"
+	"rainbond/db"
+	dbmodel "rainbond/db/model"
+	core_util "rainbond/util"
 )
 
 //Backup GroupBackup

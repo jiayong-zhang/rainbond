@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/goodrain/rainbond/cmd"
-	"github.com/goodrain/rainbond/cmd/grctl/server"
+	"rainbond/cmd"
+	"rainbond/cmd/grctl/server"
 )
 
 func main() {

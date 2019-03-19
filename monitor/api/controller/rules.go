@@ -4,13 +4,13 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	httputil "github.com/goodrain/rainbond/util/http"
+	httputil "rainbond/util/http"
 
 	"encoding/json"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/go-chi/chi"
-	"github.com/goodrain/rainbond/monitor/prometheus"
+	"rainbond/monitor/prometheus"
 )
 
 //RuleControllerManager controller manager

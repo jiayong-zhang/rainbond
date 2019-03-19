@@ -19,12 +19,12 @@
 package etcd
 
 import (
-	"github.com/goodrain/rainbond/db/config"
-	"github.com/goodrain/rainbond/db/model"
+	"rainbond/db/config"
+	"rainbond/db/model"
 	"sync"
 	"time"
 
-	etcdutil "github.com/goodrain/rainbond/util/etcd"
+	etcdutil "rainbond/util/etcd"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/coreos/etcd/clientv3"

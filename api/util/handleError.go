@@ -23,7 +23,7 @@ import (
 	"net/http"
 	"strings"
 
-	httputil "github.com/goodrain/rainbond/util/http"
+	httputil "rainbond/util/http"
 
 	"github.com/jinzhu/gorm"
 

@@ -24,8 +24,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	version "github.com/goodrain/rainbond/cmd"
-	"github.com/goodrain/rainbond/cmd/init-probe/cmd"
+	version "rainbond/cmd"
+	"rainbond/cmd/init-probe/cmd"
 	"github.com/urfave/cli"
 )
 

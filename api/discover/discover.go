@@ -20,11 +20,9 @@ package discover
 
 import (
 	"sync"
-
-	"github.com/goodrain/rainbond/api/proxy"
-	corediscover "github.com/goodrain/rainbond/discover"
-	corediscoverconfig "github.com/goodrain/rainbond/discover/config"
-
+	"rainbond/api/proxy"
+	corediscover "rainbond/discover"
+	corediscoverconfig "rainbond/discover/config"
 	"github.com/Sirupsen/logrus"
 )
 

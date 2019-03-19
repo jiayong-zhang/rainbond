@@ -26,8 +26,8 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/core/store"
+	"rainbond/cmd/node/option"
+	"rainbond/node/core/store"
 )
 
 //GroupContext 组任务会话

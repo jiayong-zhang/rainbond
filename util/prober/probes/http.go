@@ -27,8 +27,8 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/node/nodem/service"
-	"github.com/goodrain/rainbond/util/prober/types/v1"
+	"rainbond/node/nodem/service"
+	"rainbond/util/prober/types/v1"
 )
 
 // HTTPProbe probes through the http protocol

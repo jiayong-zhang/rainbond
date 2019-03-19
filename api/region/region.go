@@ -30,10 +30,10 @@ import (
 	"path"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/api/util"
-	"github.com/goodrain/rainbond/cmd"
-	utilhttp "github.com/goodrain/rainbond/util/http"
+	"rainbond/api/model"
+	"rainbond/api/util"
+	"rainbond/cmd"
+	utilhttp "rainbond/util/http"
 )
 
 var regionAPI, token string

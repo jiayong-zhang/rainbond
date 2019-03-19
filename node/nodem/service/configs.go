@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
 	"github.com/Sirupsen/logrus"
 	"gopkg.in/yaml.v2"

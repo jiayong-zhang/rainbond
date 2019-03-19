@@ -21,14 +21,11 @@ package controller
 import (
 	"fmt"
 	"net/http"
-
 	"github.com/Sirupsen/logrus"
-
-	"github.com/goodrain/rainbond/api/handler"
-	"github.com/goodrain/rainbond/api/middleware"
-
-	"github.com/goodrain/rainbond/api/model"
-	httputil "github.com/goodrain/rainbond/util/http"
+	"rainbond/api/handler"
+	"rainbond/api/middleware"
+	"rainbond/api/model"
+	httputil "rainbond/util/http"
 )
 
 //BatchOperation batch operation for tenant

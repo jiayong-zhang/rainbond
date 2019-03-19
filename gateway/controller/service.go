@@ -19,7 +19,7 @@
 package controller
 
 import (
-	"github.com/goodrain/rainbond/gateway/v1"
+	"rainbond/gateway/v1"
 )
 
 type GWServicer interface {

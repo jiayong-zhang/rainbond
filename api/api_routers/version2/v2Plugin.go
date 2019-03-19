@@ -19,10 +19,9 @@
 package version2
 
 import (
-	"github.com/goodrain/rainbond/api/controller"
-	"github.com/goodrain/rainbond/api/middleware"
-
 	"github.com/go-chi/chi"
+	"rainbond/api/controller"
+	"rainbond/api/middleware"
 )
 
 //PluginRouter plugin router

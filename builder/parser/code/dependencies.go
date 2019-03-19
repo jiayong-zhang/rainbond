@@ -21,7 +21,7 @@ package code
 import (
 	"path"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 )
 
 //CheckDependencies check dependencies with lang

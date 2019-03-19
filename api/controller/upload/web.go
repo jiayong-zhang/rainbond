@@ -1,7 +1,7 @@
 package upload
 
 import (
-	httputil "github.com/goodrain/rainbond/util/http"
+	httputil "rainbond/util/http"
 	"net/http"
 )
 

@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/goodrain/rainbond/cmd"
-	"github.com/goodrain/rainbond/cmd/api/option"
-	"github.com/goodrain/rainbond/cmd/api/server"
+	"rainbond/cmd"
+	"rainbond/cmd/api/option"
+	"rainbond/cmd/api/server"
 
 	"github.com/spf13/pflag"
 )

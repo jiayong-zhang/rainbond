@@ -23,22 +23,22 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/goodrain/rainbond/mq/client"
+	"rainbond/mq/client"
 
-	"github.com/goodrain/rainbond/builder/discover"
-	"github.com/goodrain/rainbond/builder/exector"
-	"github.com/goodrain/rainbond/builder/monitor"
-	"github.com/goodrain/rainbond/cmd/builder/option"
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/db/config"
-	"github.com/goodrain/rainbond/event"
+	"rainbond/builder/discover"
+	"rainbond/builder/exector"
+	"rainbond/builder/monitor"
+	"rainbond/cmd/builder/option"
+	"rainbond/db"
+	"rainbond/db/config"
+	"rainbond/event"
 
 	"net/http"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/builder/api"
-	"github.com/goodrain/rainbond/builder/clean"
-	discoverv2 "github.com/goodrain/rainbond/discover.v2"
+	"rainbond/builder/api"
+	"rainbond/builder/clean"
+	discoverv2 "rainbond/discover.v2"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

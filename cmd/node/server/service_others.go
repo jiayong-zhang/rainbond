@@ -21,7 +21,7 @@
 package server
 
 import (
-	"github.com/goodrain/rainbond/cmd/node/option"
+	"rainbond/cmd/node/option"
 	"github.com/spf13/pflag"
 )
 

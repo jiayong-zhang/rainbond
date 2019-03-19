@@ -20,12 +20,12 @@ package handler
 
 import (
 	"fmt"
-	"github.com/goodrain/rainbond/api/proxy"
+	"rainbond/api/proxy"
 	"github.com/twinj/uuid"
 	"strings"
 	"testing"
 
-	api_model "github.com/goodrain/rainbond/api/model"
+	api_model "rainbond/api/model"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/pquerna/ffjson/ffjson"

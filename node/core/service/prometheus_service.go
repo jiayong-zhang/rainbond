@@ -19,10 +19,10 @@
 package service
 
 import (
-	"github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/api/model"
-	"github.com/goodrain/rainbond/node/masterserver"
-	"github.com/goodrain/rainbond/node/utils"
+	"rainbond/cmd/node/option"
+	"rainbond/node/api/model"
+	"rainbond/node/masterserver"
+	"rainbond/node/utils"
 )
 
 //PrometheusService prometheus service

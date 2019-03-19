@@ -26,8 +26,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/golang/glog"
-	"github.com/goodrain/rainbond/gateway/controller/openresty/model"
-	"github.com/goodrain/rainbond/gateway/v1"
+	"rainbond/gateway/controller/openresty/model"
+	"rainbond/gateway/v1"
 )
 
 var (

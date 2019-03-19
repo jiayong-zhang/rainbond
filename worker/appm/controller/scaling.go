@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	v1 "github.com/goodrain/rainbond/worker/appm/types/v1"
+	v1 "rainbond/worker/appm/types/v1"
 	types "k8s.io/apimachinery/pkg/types"
 )
 

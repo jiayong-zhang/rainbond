@@ -38,7 +38,7 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/util/zip"
+	"rainbond/util/zip"
 )
 
 //CheckAndCreateDir check and create dir

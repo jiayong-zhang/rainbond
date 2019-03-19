@@ -26,7 +26,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/goodrain/rainbond/util"
+	"rainbond/util"
 
 	dockercli "github.com/docker/docker/client"
 

@@ -21,8 +21,8 @@ package envoy
 import (
 	"testing"
 
-	conf "github.com/goodrain/rainbond/cmd/node/option"
-	"github.com/goodrain/rainbond/node/kubecache"
+	conf "rainbond/cmd/node/option"
+	"rainbond/node/kubecache"
 )
 
 func TestCreateDiscoverServerManager(t *testing.T) {

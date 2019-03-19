@@ -25,10 +25,10 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/goodrain/rainbond/node/nodem/client"
-	"github.com/goodrain/rainbond/node/nodem/healthy/probe"
-	"github.com/goodrain/rainbond/node/nodem/service"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/node/nodem/client"
+	"rainbond/node/nodem/healthy/probe"
+	"rainbond/node/nodem/service"
+	"rainbond/util"
 )
 
 //Manager Manager

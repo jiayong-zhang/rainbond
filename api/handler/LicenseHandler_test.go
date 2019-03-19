@@ -20,8 +20,8 @@ package handler
 
 import (
 	"fmt"
-	"github.com/goodrain/rainbond/api/db"
-	"github.com/goodrain/rainbond/cmd/api/option"
+	"rainbond/api/db"
+	"rainbond/cmd/api/option"
 	"testing"
 )
 

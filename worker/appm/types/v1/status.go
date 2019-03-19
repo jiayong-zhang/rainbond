@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/goodrain/rainbond/db/model"
+	"rainbond/db/model"
 
 	corev1 "k8s.io/api/core/v1"
 )

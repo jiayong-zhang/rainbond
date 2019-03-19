@@ -26,11 +26,11 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/util"
+	"rainbond/db"
+	"rainbond/util"
 
 	"github.com/docker/docker/client"
-	"github.com/goodrain/rainbond/builder/sources"
+	"rainbond/builder/sources"
 )
 
 //Manager CleanManager

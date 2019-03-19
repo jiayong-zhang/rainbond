@@ -23,13 +23,12 @@ import (
 	"os"
 	"strconv"
 	"strings"
-
 	"github.com/Sirupsen/logrus"
-	apimodel "github.com/goodrain/rainbond/api/model"
-	"github.com/goodrain/rainbond/db"
-	"github.com/goodrain/rainbond/db/model"
-	"github.com/goodrain/rainbond/mq/client"
-	"github.com/goodrain/rainbond/util"
+	apimodel "rainbond/api/model"
+	"rainbond/db"
+	"rainbond/db/model"
+	"rainbond/mq/client"
+	"rainbond/util"
 	"github.com/jinzhu/gorm"
 )
 

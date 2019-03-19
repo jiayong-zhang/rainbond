@@ -24,8 +24,8 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	conf "github.com/goodrain/rainbond/cmd/grctl/option"
-	"github.com/goodrain/rainbond/grctl/clients"
+	conf "rainbond/cmd/grctl/option"
+	"rainbond/grctl/clients"
 	"github.com/urfave/cli"
 )
 
